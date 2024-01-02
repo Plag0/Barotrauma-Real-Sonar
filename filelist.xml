@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Real Sonar" modversion="2.0.2" corepackage="False" steamworkshopid="2936760984" gameversion="1.0.21.0">
+  <Item file="%ModDir%/command.xml" />
+  <Item file="%ModDir%/items.xml" />
+  <Item file="%ModDir%/treatments.xml" />
+  <Afflictions file="%ModDir%/afflictions.xml" />
+  <Afflictions file="%ModDir%/afflictionslowfx.xml" />
+  <Afflictions file="%ModDir%/afflictionsnofx.xml" />
+  <Afflictions file="%ModDir%/soundplayer_nav.xml" />
+  <Afflictions file="%ModDir%/soundplayer_shuttle.xml" />
+  <Afflictions file="%ModDir%/sonarping_client.xml" />
+  <Afflictions file="%ModDir%/sonarping_server.xml" />
+  <Text file="%ModDir%/Localisation/Info_English.xml" />
+  <Text file="%ModDir%/Localisation/Info_Russian.xml" />
+  <Text file="%ModDir%/Localisation/Info_German.xml" />
+  <Text file="%ModDir%/Localisation/Info_Polish.xml" />
+  <Text file="%ModDir%/Localisation/Info_Italian.xml" />
+  <Text file="%ModDir%/Localisation/Info_LatinAmericanSpanish.xml" />
+  <Text file="%ModDir%/Localisation/Info_SimplifiedChinese.xml" />
+  <Text file="%ModDir%/Localisation/Info_TraditionalChinese.xml"/>
+  <Text file="%ModDir%/Localisation/Info_French.xml" />
+  <Text file="%ModDir%/Localisation/Info_Japanese.xml" />
+  <NPCConversations file="%ModDir%/Localisation/Conversations_English.xml" />
+  <NPCConversations file="%ModDir%/Localisation/Conversations_Russian.xml" />
+  <NPCConversations file="%ModDir%/Localisation/Conversations_German.xml" />
+  <NPCConversations file="%ModDir%/Localisation/Conversations_Polish.xml" />
+  <NPCConversations file="%ModDir%/Localisation/Conversations_SimplifiedChinese.xml" />
+  <NPCConversations file="%ModDir%/Localisation/Conversations_TraditionalChinese.xml" />
+  <NPCConversations file="%ModDir%/Localisation/Conversations_Italian.xml" />
+  <NPCConversations file="%ModDir%/Localisation/Conversations_LatinamericanSpanish.xml" />
+  <NPCConversations file="%ModDir%/Localisation/Conversations_French.xml" />
+  <NPCConversations file="%ModDir%/Localisation/Conversations_Japanese.xml" />
+</contentpackage>
