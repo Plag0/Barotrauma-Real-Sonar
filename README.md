@@ -1,4 +1,4 @@
-## Sonar can now kill you.
+# Sonar can now kill you.
 Based on real-life military submarine sonar, this mod overhauls the in-game sonar system to make it more dangerous and challenging to manage.
 
 **Crewmates** - will need to be more aware of their surroundings, stay away from hull breaches while the sonar is active, and be careful of the deadly echo chambers known as ballast tanks.
@@ -8,7 +8,7 @@ Based on real-life military submarine sonar, this mod overhauls the in-game sona
 Sonar can be used to fight off creatures, but it can also draw the attention of more and cause serious injury to the crew if there's a surprise hull breach.
 Active sonar now sounds different for each player, depending on their situation, distance, and level of protection. It might sound calm inside the submarine, but I wouldn't recommend stepping outside to get a better listen.
 
-# This mod adds the following:
+## This mod adds the following:
 • Fresh new UI for the Nav Terminal, Sonar Monitor, and Shuttle Terminal. Includes clock positions & distance.
 • Active sonar now damages nearby submerged humans and creatures.
 • New sound system, allowing sonar pings to sound different for each player.
