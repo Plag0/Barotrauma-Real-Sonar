@@ -1,3 +1,4 @@
+[View Steam page](https://steamcommunity.com/sharedfiles/filedetails/?id=2936760984)
 # Sonar can now kill you.
 Based on real-life military submarine sonar, this mod overhauls the in-game sonar system to make it more dangerous and challenging to manage.
 
