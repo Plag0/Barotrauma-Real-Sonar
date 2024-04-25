@@ -7,7 +7,7 @@ Hook.Patch(
     end
     local instance_sonar = instance.GetComponentString("Sonar")
     for terminal in RealSonar.sonarItems do
-        if terminal.GetComponentString("Sonar") == instance_sonar then
+        if terminal.GetComponentString("Sonar") == instance_sonar and tostring(instance_sonar.CurrentMode) == "Active" then
             if instance_sonar.UseDirectionalPing then
                 Hook.Call("sonarPingDirectional", nil, nil, terminal)
             else

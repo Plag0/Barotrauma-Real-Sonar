@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Real Sonar" modversion="2.0.2" corepackage="False" steamworkshopid="2936760984" gameversion="1.0.21.0">
+<contentpackage name="Real Sonar" modversion="2.0.3" corepackage="False" steamworkshopid="2936760984" gameversion="1.4.4.1">
   <Item file="%ModDir%/command.xml" />
   <Item file="%ModDir%/items.xml" />
   <Item file="%ModDir%/treatments.xml" />
@@ -17,7 +17,7 @@
   <Text file="%ModDir%/Localisation/Info_Italian.xml" />
   <Text file="%ModDir%/Localisation/Info_LatinAmericanSpanish.xml" />
   <Text file="%ModDir%/Localisation/Info_SimplifiedChinese.xml" />
-  <Text file="%ModDir%/Localisation/Info_TraditionalChinese.xml"/>
+  <Text file="%ModDir%/Localisation/Info_TraditionalChinese.xml" />
   <Text file="%ModDir%/Localisation/Info_French.xml" />
   <Text file="%ModDir%/Localisation/Info_Japanese.xml" />
   <NPCConversations file="%ModDir%/Localisation/Conversations_English.xml" />
