@@ -14,7 +14,7 @@ Hook.Patch(
     function(instance, ptable)
 
     local objective = ptable["objectiveManager"].GetActiveObjective()
-    if tostring(objective) == "Barotrauma.AIObjectiveFindDivingGear" and RealSonar.characterInSonarRange(ptable["character"]) and RealSonar.hullBreached(ptable["character"]) then
+    if tostring(objective) == "Barotrauma.AIObjectiveFindDivingGear" and RealSonar.Config.BotDamage and RealSonar.Config.SonarDamage > 0.25 and RealSonar.characterInSonarRange(ptable["character"]) and RealSonar.hullBreached(ptable["character"]) then
         ptable["identifierOrTag"] = "anechoic"
     end
 end, Hook.HookMethodType.Before)
@@ -26,10 +26,10 @@ Hook.Patch(
     "Speak",
     function(instance, ptable)
 
-    if tostring(ptable["identifier"]) == "getdivinggear" and RealSonar.characterInSonarRange(instance) and RealSonar.hullBreached(instance) then
+    if tostring(ptable["identifier"]) == "getdivinggear" and RealSonar.Config.BotDamage and RealSonar.Config.SonarDamage > 0.25 and RealSonar.characterInSonarRange(instance) and RealSonar.hullBreached(instance) then
         ptable["message"] = TextManager.Get("dialoggetanechoicsuit").Value
 
-    elseif tostring(ptable["identifier"]) == "dialogcannotreachleak" and RealSonar.characterInSonarRange(instance) and RealSonar.hullBreached(instance) then
+    elseif tostring(ptable["identifier"]) == "dialogcannotreachleak" and RealSonar.Config.BotDamage and RealSonar.Config.SonarDamage > 0.25 and RealSonar.characterInSonarRange(instance) and RealSonar.hullBreached(instance) then
         ptable["delay"] = Single(2)
         ptable["message"] = TextManager.Get("dialogcantfindanechoicsuit").Value
     end

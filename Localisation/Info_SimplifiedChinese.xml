@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)">
-
 <loadingscreentip>主动声纳的脉冲强度足以使声呐换能器周围的水沸腾。</loadingscreentip>
 <loadingscreentip>建议在潜艇周围水下作业时穿上吸音潜水服。一般潜水服无法保护你免受主动声纳的影响。</loadingscreentip>
 <loadingscreentip>一艘潜艇的主动声纳发射的脉冲强度可以达到235分贝，这大约是噪音的724倍，是喷气式发动机强度的31.6亿倍。</loadingscreentip>
@@ -19,19 +18,16 @@
 <loadingscreentip>当主动声纳启动时，远离压载舱。声波可以轻易通过充满水的管道传播。</loadingscreentip>
 <loadingscreentip>如果未能及时治疗，主动声纳造成的振动损伤可能会导致神经损伤和受影响肌肉的溶血性肌炎。</loadingscreentip>
 <loadingscreentip>随着潜艇成为欧罗巴的一种生活方式，医学已经发展到可以治疗独特的声纳相关损伤。如组织移植物治疗器官穿孔，科达灵治疗脑出血，吗哪提取物治疗组织损伤。</loadingscreentip>
-
 <!-- Active sonar -->
 <afflictionname.activesonar>潜艇声呐</afflictionname.activesonar>
 <!-- Beacon station sonar -->
 <afflictionname.activesonarbeacon>信标声呐</afflictionname.activesonarbeacon>
-
 <!-- Acoustic Trauma -->
 <afflictionname.acoustictrauma>声波创伤</afflictionname.acoustictrauma>
 <afflictiondescription.acoustictrauma>患者的耳膜穿孔，导致出血和耳鸣。</afflictiondescription.acoustictrauma>
 <afflictiondescription.acoustictrauma.self>你的耳朵嗡嗡作响，滴着血，你感到头晕目眩，混乱不堪。</afflictiondescription.acoustictrauma.self>
 <afflictioncauseofdeath.acoustictrauma>耳源性死亡</afflictioncauseofdeath.acoustictrauma>
 <afflictioncauseofdeathself.acoustictrauma>你从耳朵里流血而死。</afflictioncauseofdeathself.acoustictrauma>
-
 <!-- Vibration Damage -->
 <afflictionname.vibrationdamage>振动损伤</afflictionname.vibrationdamage>
 <afflictiondescription.vibrationdamage>患者受到强烈声波振动对其循环系统造成的轻微损伤。</afflictiondescription.vibrationdamage>
@@ -42,12 +38,10 @@
 <afflictiondescription.vibrationdamage.high.self>你感觉不到四肢。你只感觉到剧烈的疼痛，就像你的每个细胞都被撕裂了一样。</afflictiondescription.vibrationdamage.high.self>
 <afflictioncauseofdeath.vibrationdamage>灾难性的内部损伤</afflictioncauseofdeath.vibrationdamage>
 <afflictioncauseofdeathself.vibrationdamage>你的内脏被撕裂了。</afflictioncauseofdeathself.vibrationdamage>
-
 <!-- Nerve Damage -->
 <afflictionname.nervedamage>神经损伤</afflictionname.nervedamage>
 <afflictiondescription.nervedamage>患者的神经因振动而受损。日常工作更加困难。</afflictiondescription.nervedamage>
 <afflictiondescription.nervedamage.self>你的手感觉麻木，你的笨拙反应使你的工作效率降低。</afflictiondescription.nervedamage.self>
-
 <!-- Rhabdomyolysis -->
 <afflictionname.muscledamage>肌肉溶解症</afflictionname.muscledamage>
 <afflictiondescription.muscledamage>患者的肌肉开始分解成蛋白质并渗入血液。</afflictiondescription.muscledamage>
@@ -56,7 +50,6 @@
 <afflictiondescription.muscledamage.high.self>你的双腿感觉虚弱。几乎无法行走，痛苦无法估量。</afflictiondescription.muscledamage.high.self>
 <afflictioncauseofdeath.muscledamage>肾衰竭</afflictioncauseofdeath.muscledamage>
 <afflictioncauseofdeathself.muscledamage>你的肌肉向血液中释放了致命量的蛋白质。</afflictioncauseofdeathself.muscledamage>
-
 <!-- Ruptured Lung -->
 <afflictionname.rupturedlung>肺部破裂</afflictionname.rupturedlung>
 <afflictiondescription.rupturedlung>患者的肺部因声纳振动而破裂。</afflictiondescription.rupturedlung>
@@ -65,7 +58,6 @@
 <afflictiondescription.rupturedlung.high.self>你开始咳血，几乎无法呼吸，每一次呼吸都非常痛苦。</afflictiondescription.rupturedlung.high.self>
 <afflictioncauseofdeath.rupturedlung>淹死在自己的血液里</afflictioncauseofdeath.rupturedlung>
 <afflictioncauseofdeathself.rupturedlung>你因为严重的肺损伤而被自己的血液淹死。</afflictioncauseofdeathself.rupturedlung>
-
 <!-- Brain Hemorrhage -->
 <afflictionname.brainhemorrhage>脑出血</afflictionname.brainhemorrhage>
 <afflictiondescription.brainhemorrhage>患者的大脑因暴露于主动声纳而导致出血，幸运的是情况似乎并没有变得更糟。</afflictiondescription.brainhemorrhage>
@@ -75,57 +67,45 @@
 <afflictiondescription.brainhemorrhage.medium.self>你无法思考。你看到莫名的闪光，感受到金属的味道。你想尖叫，但你无法发出声音。你失去了对所有运动功能的控制，现实正在慢慢消失。</afflictiondescription.brainhemorrhage.medium.self>
 <afflictioncauseofdeath.brainhemorrhage>脑死亡</afflictioncauseofdeath.brainhemorrhage>
 <afflictioncauseofdeathself.brainhemorrhage>你的大脑被主动声纳融化了。</afflictioncauseofdeathself.brainhemorrhage>
-
 <!-- Manna Influence -->
 <afflictionname.mannainfluence>吗哪提取物治疗</afflictionname.mannainfluence>
 <afflictiondescription.mannainfluence>这个肢体受到吗哪提取物的治疗影响。</afflictiondescription.mannainfluence>
 <afflictiondescription.mannainfluence.self>你感到皮肤下有一种温和的压力和舒适的温暖。</afflictiondescription.mannainfluence.self>
-
 <!-- Manna Overdose -->
 <afflictionname.mannaoverdose>吗哪过量</afflictionname.mannaoverdose>
 <afflictiondescription.mannaoverdose>病人血液中含有危险含量的吗哪。</afflictiondescription.mannaoverdose>
 <afflictiondescription.mannaoverdose.self>你感觉很棒。</afflictiondescription.mannaoverdose.self>
 <afflictioncauseofdeath.mannaoverdose>死于狂喜</afflictioncauseofdeath.mannaoverdose>
 <afflictioncauseofdeathself.mannaoverdose>你做到了，欢迎来到天堂。</afflictioncauseofdeathself.mannaoverdose>
-
 <!-- Photopsia -->
 <afflictionname.photopsia>光点症</afflictionname.photopsia>
 <afflictiondescription.photopsia>患者的视觉异常表现为闪烁的灯光和明亮的闪光。</afflictiondescription.photopsia>
 <afflictiondescription.photopsia.self>灯光好像在闪烁，你看到什么了吗？闪烁的光点充满了你的视野。一定是出了什么问题。</afflictiondescription.photopsia.self>
-
 <!-- Ataxia -->
 <afflictionname.ataxia>共济失调</afflictionname.ataxia>
 <afflictiondescription.ataxia>患者的小脑受损，导致肌肉无意识抽搐和糟糕的协调能力。</afflictiondescription.ataxia>
 <afflictiondescription.ataxia.self>你的肌肉似乎有自己的意识。你总是毫无征兆地向前蹒跚，当你试图走路时，你最终会回到原来的位置。</afflictiondescription.ataxia.self>
-
 <!-- Aphasia -->
 <afflictionname.aphasia>失语症</afflictionname.aphasia>
 <afflictiondescription.aphasia>患者的布罗卡区(语言中枢)受到损伤，导致患者无法说出完整的句子。</afflictiondescription.aphasia>
 <afflictiondescription.aphasia.self>你无法完成基本的句子，在组织词语方面有极大的困难，有时会出现语无伦次的喃喃自语。</afflictiondescription.aphasia.self>
-
 <!-- Blindness -->
 <afflictionname.opticneuritis>视神经炎</afflictionname.opticneuritis>
 <afflictiondescription.opticneuritis>患者的枕叶受到严重损伤，会导致周期性失明和失去方向感。</afflictiondescription.opticneuritis>
 <afflictiondescription.opticneuritis.self>你的视力周期性地被黑暗笼罩。这就是结局吗？</afflictiondescription.opticneuritis.self>
-
 <!-- Treatments -->
 <entityname.manna>吗哪提取物</entityname.manna>
 <entitydescription.manna>一种奇迹液体，将人类血红蛋白与外星血浆融合，以利用欧罗巴水下居民的自然恢复力和愈合特性。用于治疗肌肉和神经系统的内部损伤，并能暂时阻止脑出血。应该注意的是，反复使用效果有限，并有超剂量的风险。</entitydescription.manna>
-
 <entityname.cortizide>科达灵</entityname.cortizide>
 <entitydescription.cortizide>一种用于缓解疼痛和压力的强效药物混合物，有许多令人讨厌的副作用。通常作为治疗脑出血的最后手段，注射到颅内。
 警告：在健康的脑环境中注射药物可能会导致颅内压力增加的风险。</entitydescription.cortizide>
-
 <entityname.smartgraft>组织移植物</entityname.smartgraft>
 <entitydescription.smartgraft>一种智能组织移植物，通过遗传工程技术改造的连接组织，继承患者的DNA，以刺激器官的再生。通常用于修复穿孔的器官。</entitydescription.smartgraft>
-
 <!-- Items -->
 <entityname.anechoicdivingsuit>吸音潜水服</entityname.anechoicdivingsuit>
 <entitydescription.anechoicdivingsuit>一种灵巧轻便的潜水服，特制的消声镀层可以吸收潜艇主动声纳的声波。它可以提供轻微的保护，可以承受最高6000米的压力。</entitydescription.anechoicdivingsuit>
-
 <entityname.navremote>导航遥控器</entityname.navremote>
 <entitydescription.navremote>一种手持设备，可用于远程控制潜艇的声纳和引擎。</entitydescription.navremote>
-
 <!-- Menu -->
 <realsonarsettings>真实声纳设置</realsonarsettings>
 <volumesettings>音量设置</volumesettings>
@@ -134,18 +114,53 @@
 <suitpingvolume>声纳脉冲音量(潜水服)</suitpingvolume>
 <tinnitusvolume>耳鸣音量</tinnitusvolume>
 <distortionvolume>失真音量</distortionvolume>
-
+<networksettings>网络设置 - 仅客户端（需要在控制台输入"cl_reloadlua"）</networksettings>
+<lowlatencymode>低延迟模式（实验性）</lowlatencymode>
+<lowlatencymodetooltip>消除由高服务器延迟引起的延迟。如果服务器配置选项不同，可能会导致视觉错误或不同步。</lowlatencymodetooltip>
+<gameplaysettingsserver>游戏设置 - 仅主机</gameplaysettingsserver>
+<gameplaysettingsclient>游戏设置</gameplaysettingsclient>
+<sonarrange>声纳范围（仅单人游戏）</sonarrange>
+<sonardamage>声纳伤害（非线性）</sonardamage>
+<submarinesonar>潜艇声纳</submarinesonar>
+<submarinesonartooltip>启用导航终端的功能。</submarinesonartooltip>
+<beaconsonar>信标声纳</beaconsonar>
+<beaconsonartooltip>启用声纳监视器的功能。</beaconsonartooltip>
+<shuttlesonar>穿梭机声纳</shuttlesonar>
+<shuttlesonartooltip>启用穿梭机终端的功能。</shuttlesonartooltip>
+<customsonar>自定义声纳</customsonar>
+<customsonartooltip>启用自定义终端的功能。禁用可能会提高性能。</customsonartooltip>
+<targetcreatures>目标生物</targetcreatures>
+<targetcreaturestooltip>启用对所有非人类生物的伤害。</targetcreaturestooltip>
+<targetplayers>目标玩家</targetplayers>
+<targetplayerstooltip>启用对玩家的伤害。</targetplayerstooltip>
+<targetbots>目标机器人</targetbots>
+<targetbotstooltip>启用对机器人的伤害。</targetbotstooltip>
+<creaturehulldetection>生物船体检测</creaturehulldetection>
+<creaturehulldetectiontooltip>生物的准确声纳命中检测。禁用可能会提高性能。</creaturehulldetectiontooltip>
+<humanhulldetection>人类船体检测</humanhulldetection>
+<humanhulldetectiontooltip>人类的准确声纳命中检测，例如，你是否希望人类在压载舱中受到保护？</humanhulldetectiontooltip>
+<impactvisuals>声纳影响视觉强度</impactvisuals>
+<sonarslow>声纳移动速度惩罚</sonarslow>
+<defaultfx>其他视觉效果（脑出血、科达灵等）：\n标准</defaultfx>
+<lowfx>其他视觉效果（脑出血、科达灵等）：\n降低</lowfx>
+<nofx>其他视觉效果（脑出血、科达灵等）：\n禁用</nofx>
+<ignoredcharacters>忽略的角色ID</ignoredcharacters>
+<wearableprotections>潜水服抗性</wearableprotections>
+<sonarterminals>声纳终端</sonarterminals>
+<requirescustomsonar>（需要启用"自定义声纳"选项）</requirescustomsonar>
+<resetdefault>重置</resetdefault>
+<resetalldefault>重置全部</resetalldefault>
+<invalidinput>无效输入</invalidinput>
+<close>关闭</close>
 <!-- Dialogue -->
 <dialoggetanechoicsuit>我需要吸音潜水服！</dialoggetanechoicsuit>
 <dialoggetanechoicsuit>我需要一件吸音潜水服，才能在打开声纳时进行维修工作！</dialoggetanechoicsuit>
 <dialoggetanechoicsuit>我需要找一套吸音潜水服！</dialoggetanechoicsuit>
-
 <dialogcantfindanechoicsuit>我找不到吸音潜水服! 关掉声纳！</dialogcantfindanechoicsuit>
 <dialogcantfindanechoicsuit>这里没有吸音潜水服! 我才不要进去呢！</dialogcantfindanechoicsuit>
 <dialogcantfindanechoicsuit>在声纳关闭之前，我是不会进去的！</dialogcantfindanechoicsuit>
 <dialogcantfindanechoicsuit>我没有任何保护措施！关掉声纳！</dialogcantfindanechoicsuit>
 <dialogcantfindanechoicsuit>在声纳关闭之前，我无法进行维修工作！</dialogcantfindanechoicsuit>
-
 <dialogturnoffsonar>关掉声纳!</dialogturnoffsonar>
 <dialogturnoffsonar>我的耳朵都被那该死的声纳震出血了!</dialogturnoffsonar>
 <dialogturnoffsonar>把声纳关掉!</dialogturnoffsonar>
@@ -154,5 +169,4 @@
 <dialogturnoffsonar>我在水里，关掉声纳!</dialogturnoffsonar>
 <dialogturnoffsonar>天啊，关掉声纳!</dialogturnoffsonar>
 <dialogturnoffsonar>谁能把声纳关了!</dialogturnoffsonar>
-
 </infotexts>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Turkish" nowhitespace="false" translatedname="Türkçe">
+<loadingscreentip>Aktif sonarın ping yoğunluğu, dönüştürücülerin etrafındaki suyu kaynatacak kadar güçlüdür.</loadingscreentip>
+<loadingscreentip>Bir denizaltının etrafında çalışırken anekoyik dalış kıyafeti giymeniz önerilir. Tipik bir dalış kıyafeti sizi aktif sonardan korumayacaktır.</loadingscreentip>
+<loadingscreentip>Bir denizaltının aktif sonarı 235 desibele ulaşabilir, bu bir jet motorundan yaklaşık 724 kat daha yüksek ve 3.16 milyar kat daha yoğun bir ses şiddetidir.</loadingscreentip>
+<loadingscreentip>Ses dalgaları suda dört kat daha uzağa yayılır. Bir denizaltının aktif sonarından gelen pingler gibi düşük frekanslı sesler daha da uzağa nüfuz eder.</loadingscreentip>
+<loadingscreentip>Ses sudan havaya yayıldığında, yoğunluğu 80 desibel (256 kat daha sessiz) azalır. Bu, denizaltının anekoyik kaplı gövdesiyle birlikte, denizcileri aktif sonardan korur.</loadingscreentip>
+<loadingscreentip>Denizaltı gövdeleri, aktif sonarı emmek ve gemi içinden yayılan sesleri zayıflatmak için tasarlanmış, binlerce küçük boşluk içeren kauçuk karolardan oluşan anekoyik karolarla kaplanmıştır.</loadingscreentip>
+<loadingscreentip>Yakın mesafede, aktif sonar pinginin yoğunluğu organları yırtacak ve iç kanamaya neden olacak kadar güçlüdür.</loadingscreentip>
+<loadingscreentip>Aktif sonarı etkinleştirmeden önce mürettebatınızdan hiçbirinin gövdenin güvenliğinin dışında olmadığından emin olun.</loadingscreentip>
+<loadingscreentip>Bir denizaltının duvarları içinde, mürettebat kendi aktif sonarlarından korunur. Ancak, gövde delinip su içeri aktığında bu koruma ortadan kalkar.</loadingscreentip>
+<loadingscreentip>Gövde delinirse aktif sonarı kapatın. Kulak zarları yırtılmışsa mühendislerinizin sızıntıyı onarması zor olacaktır.</loadingscreentip>
+<loadingscreentip>Bir denizaltının yakınında dalış yaparken dikkatli olun. Tek bir sonar pingi işitme kaybına, doku hasarına ve aşırı durumlarda organ yırtılmasına ve beyin kanamasına neden olabilir.</loadingscreentip>
+<loadingscreentip>İşaret istasyonlarını etkinleştirirken anekoyik dalış kıyafeti getirmeniz önerilir. Bir denizaltınınki kadar güçlü olmasa da, bir işaretçiden gelen sonar pingi hala ciddi yaralanmalara neden olabilir.</loadingscreentip>
+<loadingscreentip>Cortizide, bir hastayı sonarın neden olduğu beyin kanamasından kurtarmanın tek yoludur.</loadingscreentip>
+<loadingscreentip>Manna özütü, sonarın neden olduğu bir beyin kanamasının ilerlemesini geçici olarak durdurabilir. Bundan sonra, Cortizide tek seçenektir.</loadingscreentip>
+<loadingscreentip>Hastanın sisteminde zaten Manna Özütü izleri varsa, ek doz uygulamak tavsiye edilmez.</loadingscreentip>
+<loadingscreentip>Aktif sonar etkinken balast tanklarından uzak durun. Ses dalgaları, su dolu borulardan kolayca yayılabilir.</loadingscreentip>
+<loadingscreentip>Tedavi edilmezse, aktif sonardan kaynaklanan titreşim hasarı, etkilenen kaslarda sinir hasarına ve rabdomiyolize neden olabilir.</loadingscreentip>
+<loadingscreentip>Denizaltılar Europa'da bir yaşam tarzı haline geldiğinden, tıp benzersiz sonarla ilgili yaralanmaları tedavi etmek için ilerlemiştir. Delinmiş organlar için akıllı greftler, beyin kanamaları için Cortizide ve doku hasarı için Manna Özütü.</loadingscreentip>
+<!-- Active sonar -->
+<afflictionname.activesonar>Denizaltı sonarı</afflictionname.activesonar>
+<!-- Beacon station sonar -->
+<afflictionname.activesonarbeacon>İşaret istasyonu sonarı</afflictionname.activesonarbeacon>
+<!-- Acoustic Trauma -->
+<afflictionname.acoustictrauma>Akustik travma</afflictionname.acoustictrauma>
+<afflictiondescription.acoustictrauma>Hastanın kulak zarları delinmiş, kanamaya ve kulak çınlamasına neden olmuştur.</afflictiondescription.acoustictrauma>
+<afflictiondescription.acoustictrauma.self>Kulaklarınız çınlıyor ve kan damlıyor, kendinizi sersem ve kafası karışmış hissediyorsunuz.</afflictiondescription.acoustictrauma.self>
+<afflictioncauseofdeath.acoustictrauma>Otojenik ölüm</afflictioncauseofdeath.acoustictrauma>
+<afflictioncauseofdeathself.acoustictrauma>Kulaklarınızdan kan kaybederek öldünüz.</afflictioncauseofdeathself.acoustictrauma>
+<!-- Vibration Damage -->
+<afflictionname.vibrationdamage>Titreşim hasarı</afflictionname.vibrationdamage>
+<afflictiondescription.vibrationdamage>Hasta, yoğun sonar titreşimlerinin neden olduğu dolaşım sisteminde hafif hasardan muzdarip.</afflictiondescription.vibrationdamage>
+<afflictiondescription.vibrationdamage.medium>Hasta, atardamarlarında, sinirlerinde ve kaslarında ciddi hasar görmüş.</afflictiondescription.vibrationdamage.medium>
+<afflictiondescription.vibrationdamage.high>Hastanın içi paramparça. Atardamarlarında, sinirlerinde, kaslarında ve kemiklerinde yıkıcı hasar var.</afflictiondescription.vibrationdamage.high>
+<afflictiondescription.vibrationdamage.self>Vücudunuzun her yerinde künt bir ağrı hissediyorsunuz. Cildiniz karıncalanıyor sanki iğne batıyormuş gibi.</afflictiondescription.vibrationdamage.self>
+<afflictiondescription.vibrationdamage.medium.self>Uzuvlarınız uyuşmuş ve vücudunuzun her yerinde iğne büyüklüğünde keskin ağrılar hissediyorsunuz.</afflictiondescription.vibrationdamage.medium.self>
+<afflictiondescription.vibrationdamage.high.self>Uzuvlarınızı hissedemiyorsunuz. Hissettiğiniz tek şey, vücudunuzdaki her hücrenin paramparça edilmiş gibi dayanılmaz bir acı.</afflictiondescription.vibrationdamage.high.self>
+<afflictioncauseofdeath.vibrationdamage>Felaket düzeyinde iç hasar</afflictioncauseofdeath.vibrationdamage>
+<afflictioncauseofdeathself.vibrationdamage>İç organlarınız parçalandı.</afflictioncauseofdeathself.vibrationdamage>
+<!-- Nerve Damage -->
+<afflictionname.nervedamage>Sinir hasarı</afflictionname.nervedamage>
+<afflictiondescription.nervedamage>Hastanın sinirleri titreşimlerden zarar görmüş. Günlük görevler daha zor hale gelmiş.</afflictiondescription.nervedamage>
+<afflictiondescription.nervedamage.self>Elleriniz uyuşmuş hissediyor, sakarlığınız daha az verimli çalışmanıza neden oluyor.</afflictiondescription.nervedamage.self>
+<!-- Rhabdomyolysis -->
+<afflictionname.muscledamage>Rabdomiyoliz</afflictionname.muscledamage>
+<afflictiondescription.muscledamage>Hastanın kasları parçalanmaya başlamış ve kan dolaşımına dökülüyor.</afflictiondescription.muscledamage>
+<afflictiondescription.muscledamage.high>Hastanın kaslarının çoğu nekroza uğramış ve tehlikeli miktarda protein kan dolaşımına dökülüyor.</afflictiondescription.muscledamage.high>
+<afflictiondescription.muscledamage.self>Kendinizi halsiz hissediyorsunuz, bacaklarınız şişmiş ve ağrıyor.</afflictiondescription.muscledamage.self>
+<afflictiondescription.muscledamage.high.self>Bacaklarınız çok zayıf hissediyor. Yürümek neredeyse imkansız ve acı ölçülemez boyutta.</afflictiondescription.muscledamage.high.self>
+<afflictioncauseofdeath.muscledamage>Böbrek yetmezliği</afflictioncauseofdeath.muscledamage>
+<afflictioncauseofdeathself.muscledamage>Kaslarınız kan dolaşımınıza ölümcül miktarda protein saldı.</afflictioncauseofdeathself.muscledamage>
+<!-- Ruptured Lung -->
+<afflictionname.rupturedlung>Akciğer yırtılması</afflictionname.rupturedlung>
+<afflictiondescription.rupturedlung>Hastanın akciğerleri sonar titreşimlerinden yırtılmış.</afflictiondescription.rupturedlung>
+<afflictiondescription.rupturedlung.high>Hastanın akciğerleri aşırı titreşimler nedeniyle parçalanmış, hipoksemi ve yüksek boğulma olasılığına yol açmış.</afflictiondescription.rupturedlung.high>
+<afflictiondescription.rupturedlung.self>Göğsünüzde keskin bir ağrı var. Nefes almak daha zor.</afflictiondescription.rupturedlung.self>
+<afflictiondescription.rupturedlung.high.self>Kan öksürürken zor nefes alabiliyorsunuz, her nefes alışınız acı veriyor.</afflictiondescription.rupturedlung.high.self>
+<afflictioncauseofdeath.rupturedlung>Kendi kanında boğuldu</afflictioncauseofdeath.rupturedlung>
+<afflictioncauseofdeathself.rupturedlung>Ciddi akciğer hasarı nedeniyle kendi kanınızda boğuldunuz.</afflictioncauseofdeathself.rupturedlung>
+<!-- Brain Hemorrhage -->
+<afflictionname.brainhemorrhage>Beyin kanaması</afflictionname.brainhemorrhage>
+<afflictiondescription.brainhemorrhage>Hastanın beyni aktif sonara maruz kalmaktan kanıyor. Neyse ki daha kötüye gitmiyor gibi görünüyor.</afflictiondescription.brainhemorrhage>
+<afflictiondescription.brainhemorrhage.medium>Hastanın beyninin büyük kısımları çamura dönüşmüş. Beyin kendi kanında boğuluyor ve durum giderek kötüleşiyor.</afflictiondescription.brainhemorrhage.medium>
+<afflictiondescription.brainhemorrhage.high>Hastanın beyni aktif sonar tarafından eritilmiş.</afflictiondescription.brainhemorrhage.high>
+<afflictiondescription.brainhemorrhage.self>Görüşünüz bulanık ve zihniniz sisli hissediyor.</afflictiondescription.brainhemorrhage.self>
+<afflictiondescription.brainhemorrhage.medium.self>Düşünemiyorsunuz. Yanıp sönen ışıklar görüyor ve metal tadı alıyorsunuz. Çığlık atmak istiyorsunuz ama yapamıyorsunuz. Tüm motor fonksiyonlarınızın kontrolünü kaybediyorsunuz ve gerçeklik yavaşça kayıp gidiyor.</afflictiondescription.brainhemorrhage.medium.self>
+<afflictioncauseofdeath.brainhemorrhage>Beyin ölümü</afflictioncauseofdeath.brainhemorrhage>
+<afflictioncauseofdeathself.brainhemorrhage>Beyniniz aktif sonar tarafından eritildi.</afflictioncauseofdeathself.brainhemorrhage>
+<!-- Manna Influence -->
+<afflictionname.mannainfluence>Manna etkisi</afflictionname.mannainfluence>
+<afflictiondescription.mannainfluence>Bu uzuv Manna Özütünün iyileştirici etkisi altında.</afflictiondescription.mannainfluence>
+<afflictiondescription.mannainfluence.self>Cildin altında nazik bir basınç ve rahatlatıcı bir sıcaklık hissediyorsunuz.</afflictiondescription.mannainfluence.self>
+<!-- Manna Overdose -->
+<afflictionname.mannaoverdose>Manna aşırı dozu</afflictionname.mannaoverdose>
+<afflictiondescription.mannaoverdose>Hastanın kanında tehlikeli miktarda Manna var.</afflictiondescription.mannaoverdose>
+<afflictiondescription.mannaoverdose.self>Kendinizi harika hissediyorsunuz.</afflictiondescription.mannaoverdose.self>
+<afflictioncauseofdeath.mannaoverdose>Coşku içinde öldü</afflictioncauseofdeath.mannaoverdose>
+<afflictioncauseofdeathself.mannaoverdose>Başardınız, cennete hoş geldiniz.</afflictioncauseofdeathself.mannaoverdose>
+<!-- Photopsia -->
+<afflictionname.photopsia>Fotopsi</afflictionname.photopsia>
+<afflictiondescription.photopsia>Hasta, titreşen ışıklar ve parlak flaşlar şeklinde görsel anomaliler yaşıyor.</afflictiondescription.photopsia>
+<afflictiondescription.photopsia.self>Işıklar titreşiyor gibi görünüyor, bir şeyler mi görüyorsunuz? Görüş alanınızın kenarlarını ışık flaşları dolduruyor. Kesinlikle bir şeyler yanlış.</afflictiondescription.photopsia.self>
+<!-- Ataxia -->
+<afflictionname.ataxia>Ataksi</afflictionname.ataxia>
+<afflictiondescription.ataxia>Hastanın beyinciği felç olmuş, istemsiz kas spazmlarına ve korkunç koordinasyona yol açıyor.</afflictiondescription.ataxia>
+<afflictiondescription.ataxia.self>Kaslarınızın kendi aklı varmış gibi görünüyor. Uyarı olmadan sürekli öne doğru sendeliyorsunuz ve yürümeye çalıştığınızda, başladığınız yere geri dönüyorsunuz.</afflictiondescription.ataxia.self>
+<!-- Aphasia -->
+<afflictionname.aphasia>Afazi</afflictionname.aphasia>
+<afflictiondescription.aphasia>Hasta, beynin Broca bölgesinde hasar almış, tam cümleler kurabilme yeteneğini kaybetmiş.</afflictiondescription.aphasia>
+<afflictiondescription.aphasia.self>Basit cümleleri bile tamamlayamıyor ve kelime oluşturmakta aşırı zorluk çekiyorsunuz, bazen anlamsız mırıldanmalara başvuruyorsunuz.</afflictiondescription.aphasia.self>
+<!-- Blindness -->
+<afflictionname.opticneuritis>Optik nörit</afflictionname.opticneuritis>
+<afflictiondescription.opticneuritis>Hastanın oksipital lobu ciddi şekilde hasar görmüş, periyodik olarak hastayı kör ediyor ve yönünü kaybettiriyor.</afflictiondescription.opticneuritis>
+<afflictiondescription.opticneuritis.self>Görüşünüz periyodik olarak karanlıkla kaplanıyor. Bu son mu?</afflictiondescription.opticneuritis.self>
+<!-- Treatments -->
+<entityname.manna>Manna Özütü</entityname.manna>
+<entitydescription.manna>İnsan hemoglobinlerini yabancı plazma ile birleştirerek Europa'nın sualtı sakinlerinin doğal dayanıklılığını ve iyileştirici özelliklerini kullanan mucizevi sıvı. Kas ve sinir sistemindeki iç hasarı tedavi etmek için kullanılır ve geçici olarak beyin kanamasını durdurabilir. Tekrarlanan kullanımın azalan getiriler ürettiği ve aşırı doz riskine yol açtığı unutulmamalıdır.</entitydescription.manna>
+<entityname.cortizide>Cortizide</entityname.cortizide>
+<entitydescription.cortizide>Bir dizi nahoş yan etkiye sahip güçlü bir ağrı ve basınç giderici ilaç karışımı. Genellikle beyin kanamasını tedavi etmek için son çare olarak kafatasına enjekte edilir.
+Uyarı: Sağlıklı bir beyin ortamına uygulanması kafatasında tehlikeli bir basınç artışına neden olabilir.</entitydescription.cortizide>
+<entityname.smartgraft>Akıllı Greft</entityname.smartgraft>
+<entitydescription.smartgraft>Karmaşık anatomik sistemlerin yenilenmesini uyarmak için hastanın DNA'sını miras alan genetik olarak mühendislik ürünü bağ dokusu. Genellikle delinmiş organları onarmak için kullanılır.</entitydescription.smartgraft>
+<!-- Items -->
+<entityname.anechoicdivingsuit>Anekoyik Dalış Kıyafeti</entityname.anechoicdivingsuit>
+<entitydescription.anechoicdivingsuit>Anekoyik kaplamasıyla aktif sonarın ses dalgalarını emmek için tasarlanmış gizli, hafif bir kıyafet. Hasara karşı küçük bir koruma sağlar ve 6.000 metreye kadar basınca dayanabilir.</entitydescription.anechoicdivingsuit>
+<entityname.navremote>Seyir Uzaktan Kumandası</entityname.navremote>
+<entitydescription.navremote>Denizaltının sonarını ve motorlarını uzaktan kontrol etmek için kullanılabilen el cihazı.</entitydescription.navremote>
+<!-- Menu -->
+<realsonarsettings>Gerçek Sonar Ayarları</realsonarsettings>
+<volumesettings>Ses Ayarları</volumesettings>
+<airpingvolume>Hava Ping Sesi</airpingvolume>
+<waterpingvolume>Su Ping Sesi</waterpingvolume>
+<suitpingvolume>Kıyafet Ping Sesi</suitpingvolume>
+<tinnitusvolume>Kulak Çınlaması Sesi</tinnitusvolume>
+<distortionvolume>Distorsiyon Sesi</distortionvolume>
+<networksettings>Ağ Ayarları - Sadece İstemci (Konsolda "cl_reloadlua" gerektirir)</networksettings>
+<lowlatencymode>Düşük Gecikme Modu (Deneysel)</lowlatencymode>
+<lowlatencymodetooltip>Sunucuya yüksek ping'den kaynaklanan gecikmeyi ortadan kaldırır. Sunucu farklı yapılandırma seçeneklerine sahipse görsel hatalara veya eşzamansızlığa neden olabilir.</lowlatencymodetooltip>
+<gameplaysettingsserver>Oynanış Ayarları - Sadece Sunucu</gameplaysettingsserver>
+<gameplaysettingsclient>Oynanış Ayarları</gameplaysettingsclient>
+<sonarrange>Sonar Menzili (Sadece tek oyunculu)</sonarrange>
+<sonardamage>Sonar Hasarı (Doğrusal olmayan)</sonardamage>
+<submarinesonar>Denizaltı Sonarı</submarinesonar>
+<submarinesonartooltip>Seyir Terminallerinin işlevselliğini etkinleştirir.</submarinesonartooltip>
+<beaconsonar>İşaret İstasyonu Sonarı</beaconsonar>
+<beaconsonartooltip>Sonar Monitörlerinin işlevselliğini etkinleştirir.</beaconsonartooltip>
+<shuttlesonar>Mekik Sonarı</shuttlesonar>
+<shuttlesonartooltip>Mekik Terminallerinin işlevselliğini etkinleştirir.</shuttlesonartooltip>
+<customsonar>Özel Sonar</customsonar>
+<customsonartooltip>Özel terminaller için işlevselliği etkinleştirir. Devre dışı bırakmak performansı artırabilir.</customsonartooltip>
+<targetcreatures>Canlıları Hedefle</targetcreatures>
+<targetcreaturestooltip>İnsan olmayan tüm canlılara hasar vermeyi etkinleştirir.</targetcreaturestooltip>
+<targetplayers>Oyuncuları Hedefle</targetplayers>
+<targetplayerstooltip>Oyunculara hasar vermeyi etkinleştirir.</targetplayerstooltip>
+<targetbots>Botları Hedefle</targetbots>
+<targetbotstooltip>Botlara hasar vermeyi etkinleştirir.</targetbotstooltip>
+<creaturehulldetection>Canlı Gövde Algılama</creaturehulldetection>
+<creaturehulldetectiontooltip>Canlılar için doğru sonar vuruş algılama. Devre dışı bırakmak performansı artırabilir.</creaturehulldetectiontooltip>
+<humanhulldetection>İnsan Gövde Algılama</humanhulldetection>
+<humanhulldetectiontooltip>İnsanlar için doğru sonar vuruş algılama, örneğin insanların balast tanklarında korunmasını istiyor musunuz?</humanhulldetectiontooltip>
+<impactvisuals>Sonar Etki Görsel Yoğunluğu</impactvisuals>
+<sonarslow>Sonar Hareket Hızı Cezası</sonarslow>
+<defaultfx>Diğer Görseller (Beyin kanaması, cortizide, vb.):\nStandart</defaultfx>
+<lowfx>Diğer Görseller (Beyin kanaması, cortizide, vb.):\nAzaltılmış</lowfx>
+<nofx>Diğer Görseller (Beyin kanaması, cortizide, vb.):\nDevre Dışı</nofx>
+<ignoredcharacters>Yok Sayılan Karakter ID'leri</ignoredcharacters>
+<wearableprotections>Dalış Kıyafeti Dirençleri</wearableprotections>
+<sonarterminals>Sonar Terminalleri</sonarterminals>
+<requirescustomsonar>("Özel Sonar" seçeneğinin etkinleştirilmesi gerekir)</requirescustomsonar>
+<resetdefault>Sıfırla</resetdefault>
+<resetalldefault>Tümünü Sıfırla</resetalldefault>
+<invalidinput>Geçersiz Giriş</invalidinput>
+<close>Kapat</close>
+<!-- Dialogue -->
+<dialoggetanechoicsuit>Anekoyik dalış kıyafetine ihtiyacım var!</dialoggetanechoicsuit>
+<dialoggetanechoicsuit>Sonar açıkken tamirat yapmak için anekoyik kıyafete ihtiyacım var!</dialoggetanechoicsuit>
+<dialoggetanechoicsuit>Anekoyik kıyafet bulmam lazım!</dialoggetanechoicsuit>
+<dialogcantfindanechoicsuit>Anekoyik kıyafet bulamıyorum! Sonarı kapatın!</dialogcantfindanechoicsuit>
+<dialogcantfindanechoicsuit>Anekoyik kıyafet yok! Oraya girmiyorum!</dialogcantfindanechoicsuit>
+<dialogcantfindanechoicsuit>Sonar kapanana kadar oraya girmiyorum!</dialogcantfindanechoicsuit>
+<dialogcantfindanechoicsuit>Korumam yok! Sonarı kapatın!</dialogcantfindanechoicsuit>
+<dialogcantfindanechoicsuit>Sonar kapanana kadar tamirat yapamam!</dialogcantfindanechoicsuit>
+<dialogturnoffsonar>Sonarı kapatın!</dialogturnoffsonar>
+<dialogturnoffsonar>O lanet sonar yüzünden kulaklarım kanıyor!</dialogturnoffsonar>
+<dialogturnoffsonar>Sonarı kapatın!</dialogturnoffsonar>
+<dialogturnoffsonar>Sonara yakalandım!</dialogturnoffsonar>
+<dialogturnoffsonar>Aman Tanrım, bu sonar çok gürültülü!</dialogturnoffsonar>
+<dialogturnoffsonar>Suyun içindeyim, sonarı devre dışı bırakın!</dialogturnoffsonar>
+<dialogturnoffsonar>Aman Tanrım, sonarı devre dışı bırakın!</dialogturnoffsonar>
+<dialogturnoffsonar>Birisi sonarı kapatsın!</dialogturnoffsonar>
+</infotexts>

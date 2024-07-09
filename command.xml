@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <Override>
-  <Item name="" identifier="navterminal" tags="command,navterminal,primarynavterminal" usetransducers="true" linkable="true" allowedlinks="statusmonitor" scale="0.5" category="Machine,Electrical" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="" identifier="navterminal" tags="command,navterminal,primarynavterminal" usetransducers="true" linkable="true" allowedlinks="statusmonitor" scale="0.5" category="Machine,Electrical" damagedbyexplosions="true" explosiondamagemultiplier="0.2" GrabWhenSelected="true">
     <UpgradePreviewSprite scale="2.5" texture="Content/UI/WeaponUI.png" sourcerect="128,960,64,64" origin="0.5,0.45" />
     <Upgrade gameversion="0.10.0.0" scale="*0.5" />
     <Upgrade gameversion="0.14.4.0" positiony="+30" />
@@ -121,7 +121,7 @@
     </Repairable>
   </Item>
 
-  <Item name="" identifier="sonarmonitor" tags="command,sonarmonitor" linkable="true" allowedlinks="statusmonitor" scale="0.5" category="Machine,Electrical" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="" identifier="sonarmonitor" tags="command,sonarmonitor" linkable="true" allowedlinks="statusmonitor" scale="0.5" category="Machine,Electrical" damagedbyexplosions="true" explosiondamagemultiplier="0.2" GrabWhenSelected="true">
     <UpgradePreviewSprite scale="2.5" texture="Content/UI/WeaponUI.png" sourcerect="128,960,64,64" origin="0.5,0.45" />
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Upgrade gameversion="0.14.4.0" positiony="+53" />
@@ -204,7 +204,7 @@
     </Repairable>
   </Item>
 
-  <Item name="" identifier="shuttlenavterminal" tags="command,navterminal,secondarynavterminal" linkable="true" allowedlinks="statusmonitor" category="Machine,Electrical" scale="0.5" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="" identifier="shuttlenavterminal" tags="command,navterminal,secondarynavterminal" linkable="true" allowedlinks="statusmonitor" category="Machine,Electrical" scale="0.5" damagedbyexplosions="true" explosiondamagemultiplier="0.2" GrabWhenSelected="true">
     <UpgradePreviewSprite texture="Content/UI/WeaponUI.png" sourcerect="128,960,64,64" origin="0.5,0.45" />
     <Sprite texture="Content/Items/Command/CommandDevices.png" depth="0.8" sourcerect="400,0,288,240" origin="0.5,0.5" />
     <BrokenSprite texture="Content/Items/Command/CommandDevices.png" sourcerect="400,256,288,240" depth="0.8" maxcondition="80" fadein="true" origin="0.5,0.5" />
@@ -213,7 +213,7 @@
       <Upgrade gameversion="0.9.600.0" lightcolor="255,255,255,0"/>
       <sprite texture="Content/Items/Command/navigatorLights.png" depth="0.025" sourcerect="256,320,288,240" origin="0.5,0.5" alpha="1.0" />
     </LightComponent>
-    <Steering minvoltage="0.5" canbeselected="true" powerconsumption="10" linkuitocomponent="Sonar" msg="ItemMsgInteractSelect" allowuioverlap="true" hudlayer="-1">
+    <Steering minvoltage="0.5" canbeselected="true" powerconsumption="10" linkuitocomptonent="Sonar" msg="ItemMsgInteractSelect" allowuioverlap="true" hudlayer="-1">
       <GuiFrame relativesize="0.55,0.59" anchor="Center" style="OuterGlow" color="0,0,0,0.8" relativeoffset="0.1,-0.05" draggable="false" />
       <StatusEffect type="InWater" target="This" condition="-0.5" />
       <MaintainPosIndicator texture="%ModDir:2936760984%/UI/NavUI2.png" sourcerect="82,0,93,93" />

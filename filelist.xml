@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Real Sonar" modversion="2.0.3" corepackage="False" steamworkshopid="2936760984" gameversion="1.4.4.1">
+<contentpackage name="Real Sonar" modversion="2.0.4" corepackage="False" steamworkshopid="2936760984" gameversion="1.5.9.1">
   <Item file="%ModDir%/command.xml" />
   <Item file="%ModDir%/items.xml" />
   <Item file="%ModDir%/treatments.xml" />
@@ -16,18 +16,21 @@
   <Text file="%ModDir%/Localisation/Info_Polish.xml" />
   <Text file="%ModDir%/Localisation/Info_Italian.xml" />
   <Text file="%ModDir%/Localisation/Info_LatinAmericanSpanish.xml" />
+  <Text file="%ModDir%/Localisation/Info_CastilianSpanish.xml" />
   <Text file="%ModDir%/Localisation/Info_SimplifiedChinese.xml" />
   <Text file="%ModDir%/Localisation/Info_TraditionalChinese.xml" />
   <Text file="%ModDir%/Localisation/Info_French.xml" />
   <Text file="%ModDir%/Localisation/Info_Japanese.xml" />
+  <Text file="%ModDir%/Localisation/Info_Korean.xml" />
+  <Text file="%ModDir%/Localisation/Info_Turkish.xml" />
+  <Text file="%ModDir%/Localisation/Info_BrazilianPortuguese.xml" />
   <NPCConversations file="%ModDir%/Localisation/Conversations_English.xml" />
   <NPCConversations file="%ModDir%/Localisation/Conversations_Russian.xml" />
   <NPCConversations file="%ModDir%/Localisation/Conversations_German.xml" />
   <NPCConversations file="%ModDir%/Localisation/Conversations_Polish.xml" />
   <NPCConversations file="%ModDir%/Localisation/Conversations_SimplifiedChinese.xml" />
-  <NPCConversations file="%ModDir%/Localisation/Conversations_TraditionalChinese.xml" />
   <NPCConversations file="%ModDir%/Localisation/Conversations_Italian.xml" />
-  <NPCConversations file="%ModDir%/Localisation/Conversations_LatinamericanSpanish.xml" />
+  <NPCConversations file="%ModDir%/Localisation/Conversations_LatinAmericanSpanish.xml" />
   <NPCConversations file="%ModDir%/Localisation/Conversations_French.xml" />
   <NPCConversations file="%ModDir%/Localisation/Conversations_Japanese.xml" />
 </contentpackage>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Korean" nowhitespace="false" translatedname="한국어">
+<loadingscreentip>활성 소나 핑의 강도는 트랜스듀서 주변의 물을 끓일 만큼 강력합니다.</loadingscreentip>
+<loadingscreentip>잠수함 주변에서 작업할 때는 무반향 잠수복을 착용하는 것이 좋습니다. 일반적인 잠수복으로는 활성 소나로부터 보호받을 수 없습니다.</loadingscreentip>
+<loadingscreentip>잠수함의 활성 소나는 235dB의 음량에 도달할 수 있으며, 이는 제트 엔진보다 약 724배 더 크고, 강도는 31.6억 배 더 강합니다.</loadingscreentip>
+<loadingscreentip>수중에서 음파는 공기 중보다 4배 더 멀리 전파됩니다. 잠수함의 활성 소나에서 나오는 핑과 같은 저주파 음파는 더 멀리 침투합니다.</loadingscreentip>
+<loadingscreentip>소리가 물에서 공기로 전파될 때, 강도는 80dB(256배 더 조용함) 감소합니다. 이와 잠수함의 무반향 타일 선체가 결합되어 잠수함 승무원들을 활성 소나로부터 안전하게 보호합니다.</loadingscreentip>
+<loadingscreentip>잠수함 선체는 무반향 타일로 코팅되어 있습니다. 이 고무 타일에는 수천 개의 작은 공극이 있어 활성 소나를 흡수하고 선체 내부에서 발생하는 소리를 감쇠시키도록 설계되었습니다.</loadingscreentip>
+<loadingscreentip>근거리에서 활성 소나 핑의 강도는 장기를 파열시키고 내부 출혈을 일으킬 만큼 강력합니다.</loadingscreentip>
+<loadingscreentip>활성 소나를 작동하기 전에 모든 승무원이 선체의 안전 범위 내에 있는지 확인하세요.</loadingscreentip>
+<loadingscreentip>잠수함 벽 안에서 승무원들은 자체 활성 소나로부터 보호받습니다. 하지만 선체가 파손되어 물이 유입되면 이 보호막은 사라집니다.</loadingscreentip>
+<loadingscreentip>선체가 파손되면 활성 소나를 끄세요. 기술자들이 고막이 터진 상태에서는 누수를 수리하기 어려울 것입니다.</loadingscreentip>
+<loadingscreentip>잠수함 근처에서 잠수할 때는 주의하세요. 단 한 번의 소나 핑으로도 청력 손실, 조직 손상, 극단적인 경우 장기 파열과 뇌출혈을 일으킬 수 있습니다.</loadingscreentip>
+<loadingscreentip>비콘 기지를 활성화할 때는 무반향 잠수복을 착용하는 것이 좋습니다. 잠수함만큼 강력하지는 않지만, 비콘에서 나오는 소나 핑도 심각한 부상을 일으킬 수 있습니다.</loadingscreentip>
+<loadingscreentip>코르티자이드는 소나로 인한 뇌출혈 환자를 구할 수 있는 유일한 방법입니다.</loadingscreentip>
+<loadingscreentip>만나 추출물은 일시적으로 소나로 인한 뇌출혈의 진행을 멈출 수 있습니다. 그 후에는 코르티자이드만이 유일한 선택지입니다.</loadingscreentip>
+<loadingscreentip>환자의 체내에 이미 만나 추출물 흔적이 있다면 추가로 투여하는 것은 권장되지 않습니다.</loadingscreentip>
+<loadingscreentip>활성 소나가 작동 중일 때는 밸러스트 탱크에서 멀리 떨어지세요. 음파가 물이 가득 찬 파이프를 통해 쉽게 전파될 수 있습니다.</loadingscreentip>
+<loadingscreentip>치료하지 않으면 활성 소나로 인한 진동 손상은 신경 손상과 영향을 받은 근육의 횡문근융해증을 유발할 수 있습니다.</loadingscreentip>
+<loadingscreentip>유로파에서 잠수함이 생활의 일부가 되면서, 의학은 독특한 소나 관련 부상을 치료하기 위해 발전했습니다. 천공된 장기를 위한 스마트 이식, 뇌출혈을 위한 코르티자이드, 조직 손상을 위한 만나 추출물 등이 있습니다.</loadingscreentip>
+<!-- Active sonar -->
+<afflictionname.activesonar>잠수함 소나</afflictionname.activesonar>
+<!-- Beacon station sonar -->
+<afflictionname.activesonarbeacon>비콘 소나</afflictionname.activesonarbeacon>
+<!-- Acoustic Trauma -->
+<afflictionname.acoustictrauma>음향 외상</afflictionname.acoustictrauma>
+<afflictiondescription.acoustictrauma>환자의 고막이 천공되어 출혈과 이명이 발생했습니다.</afflictiondescription.acoustictrauma>
+<afflictiondescription.acoustictrauma.self>귀에서 이명이 들리고 피가 흐르며, 어지럽고 혼란스럽습니다.</afflictiondescription.acoustictrauma.self>
+<afflictioncauseofdeath.acoustictrauma>이성 사망</afflictioncauseofdeath.acoustictrauma>
+<afflictioncauseofdeathself.acoustictrauma>귀에서 출혈이 멈추지 않아 사망했습니다.</afflictioncauseofdeathself.acoustictrauma>
+<!-- Vibration Damage -->
+<afflictionname.vibrationdamage>진동 손상</afflictionname.vibrationdamage>
+<afflictiondescription.vibrationdamage>환자가 강렬한 소나 진동으로 인해 순환계에 경미한 손상을 입었습니다.</afflictiondescription.vibrationdamage>
+<afflictiondescription.vibrationdamage.medium>환자의 동맥, 신경, 근육에 심각한 손상이 발생했습니다.</afflictiondescription.vibrationdamage.medium>
+<afflictiondescription.vibrationdamage.high>환자의 내부가 망가졌습니다. 동맥, 신경, 근육, 뼈에 치명적인 손상이 발생했습니다.</afflictiondescription.vibrationdamage.high>
+<afflictiondescription.vibrationdamage.self>온몸에 둔통을 느낍니다. 피부가 저리고 따끔거립니다.</afflictiondescription.vibrationdamage.self>
+<afflictiondescription.vibrationdamage.medium.self>사지가 마비되고 온몸에 바늘로 찌르는 듯한 날카로운 통증을 느낍니다.</afflictiondescription.vibrationdamage.medium.self>
+<afflictiondescription.vibrationdamage.high.self>팔다리를 느낄 수 없습니다. 몸의 모든 세포가 찢어지는 것 같은 극심한 고통만 느껴집니다.</afflictiondescription.vibrationdamage.high.self>
+<afflictioncauseofdeath.vibrationdamage>치명적인 내부 손상</afflictioncauseofdeath.vibrationdamage>
+<afflictioncauseofdeathself.vibrationdamage>내장이 찢어졌습니다.</afflictioncauseofdeathself.vibrationdamage>
+<!-- Nerve Damage -->
+<afflictionname.nervedamage>신경 손상</afflictionname.nervedamage>
+<afflictiondescription.nervedamage>환자의 신경이 진동으로 인해 손상되었습니다. 일상적인 작업이 더 어려워집니다.</afflictiondescription.nervedamage>
+<afflictiondescription.nervedamage.self>손이 마비된 것 같고, 어색해서 작업 효율이 떨어집니다.</afflictiondescription.nervedamage.self>
+<!-- Rhabdomyolysis -->
+<afflictionname.muscledamage>횡문근융해증</afflictionname.muscledamage>
+<afflictiondescription.muscledamage>환자의 근육이 분해되기 시작하여 혈류로 유입되고 있습니다.</afflictiondescription.muscledamage>
+<afflictiondescription.muscledamage.high>환자의 대부분의 근육이 괴사되었으며 위험한 양의 단백질이 혈류로 유입되고 있습니다.</afflictiondescription.muscledamage.high>
+<afflictiondescription.muscledamage.self>몸이 느려지고, 다리가 붓고 아픕니다.</afflictiondescription.muscledamage.self>
+<afflictiondescription.muscledamage.high.self>다리가 허약해졌습니다. 걷는 것이 거의 불가능하고, 고통이 극심합니다.</afflictiondescription.muscledamage.high.self>
+<afflictioncauseofdeath.muscledamage>신부전</afflictioncauseofdeath.muscledamage>
+<afflictioncauseofdeathself.muscledamage>근육에서 치명적인 양의 단백질이 혈류로 유입되었습니다.</afflictioncauseofdeathself.muscledamage>
+<!-- Ruptured Lung -->
+<afflictionname.rupturedlung>폐 파열</afflictionname.rupturedlung>
+<afflictiondescription.rupturedlung>환자의 폐가 소나 진동으로 인해 파열되었습니다.</afflictiondescription.rupturedlung>
+<afflictiondescription.rupturedlung.high>환자의 폐가 극심한 진동으로 인해 찢어져 저산소증과 질식의 위험이 높습니다.</afflictiondescription.rupturedlung.high>
+<afflictiondescription.rupturedlung.self>가슴에 날카로운 통증이 있습니다. 호흡이 더 어려워졌습니다.</afflictiondescription.rupturedlung.self>
+<afflictiondescription.rupturedlung.high.self>피를 토하느라 겨우 숨을 쉴 수 있습니다. 숨을 들이쉴 때마다 고통스럽습니다.</afflictiondescription.rupturedlung.high.self>
+<afflictioncauseofdeath.rupturedlung>자신의 피에 익사함</afflictioncauseofdeath.rupturedlung>
+<afflictioncauseofdeathself.rupturedlung>심각한 폐 손상으로 인해 자신의 피에 익사했습니다.</afflictioncauseofdeathself.rupturedlung>
+<!-- Brain Hemorrhage -->
+<afflictionname.brainhemorrhage>뇌출혈</afflictionname.brainhemorrhage>
+<afflictiondescription.brainhemorrhage>환자의 뇌가 활성 소나 노출로 인해 출혈하고 있습니다. 다행히 더 악화되지는 않는 것 같습니다.</afflictiondescription.brainhemorrhage>
+<afflictiondescription.brainhemorrhage.medium>환자의 대뇌 대부분이 진흙처럼 녹아내렸습니다. 뇌가 자신의 피에 잠기고 있으며, 상황은 계속 악화되고 있습니다.</afflictiondescription.brainhemorrhage.medium>
+<afflictiondescription.brainhemorrhage.high>환자의 뇌가 활성 소나에 의해 녹아버렸습니다.</afflictiondescription.brainhemorrhage.high>
+<afflictiondescription.brainhemorrhage.self>시야가 흐려지고 정신이 몽롱합니다.</afflictiondescription.brainhemorrhage.self>
+<afflictiondescription.brainhemorrhage.medium.self>생각을 할 수 없습니다. 번쩍이는 것이 보이고 금속 맛이 납니다. 소리를 지르고 싶지만 할 수 없습니다. 모든 운동 기능을 잃어가고 있으며, 현실이 서서히 멀어지고 있습니다.</afflictiondescription.brainhemorrhage.medium.self>
+<afflictioncauseofdeath.brainhemorrhage>뇌사</afflictioncauseofdeath.brainhemorrhage>
+<afflictioncauseofdeathself.brainhemorrhage>활성 소나에 의해 뇌가 녹아버렸습니다.</afflictioncauseofdeathself.brainhemorrhage>
+<!-- Manna Influence -->
+<afflictionname.mannainfluence>만나의 영향</afflictionname.mannainfluence>
+<afflictiondescription.mannainfluence>이 사지가 만나 추출물의 치유 영향 하에 있습니다.</afflictiondescription.mannainfluence>
+<afflictiondescription.mannainfluence.self>피부 아래에서 부드러운 압력과 편안한 따뜻함을 느낍니다.</afflictiondescription.mannainfluence.self>
+<!-- Manna Overdose -->
+<afflictionname.mannaoverdose>만나 과다복용</afflictionname.mannaoverdose>
+<afflictiondescription.mannaoverdose>환자의 혈액에 위험한 양의 만나가 있습니다.</afflictiondescription.mannaoverdose>
+<afflictiondescription.mannaoverdose.self>기분이 환상적입니다.</afflictiondescription.mannaoverdose.self>
+<afflictioncauseofdeath.mannaoverdose>황홀감 속에서 사망</afflictioncauseofdeath.mannaoverdose>
+<afflictioncauseofdeathself.mannaoverdose>당신은 해냈습니다, 천국에 오신 것을 환영합니다.</afflictioncauseofdeathself.mannaoverdose>
+<!-- Photopsia -->
+<afflictionname.photopsia>광시증</afflictionname.photopsia>
+<afflictiondescription.photopsia>환자가 깜박이는 불빛과 밝은 섬광 형태의 시각적 이상을 경험하고 있습니다.</afflictiondescription.photopsia>
+<afflictiondescription.photopsia.self>불빛이 깜박이는 것 같습니다. 뭔가 보이나요? 시야 주변에 밝은 섬광이 가득합니다. 뭔가 확실히 잘못되었습니다.</afflictiondescription.photopsia.self>
+<!-- Ataxia -->
+<afflictionname.ataxia>운동실조</afflictionname.ataxia>
+<afflictiondescription.ataxia>환자의 소뇌가 손상되어 불수의적 근육 경련과 심각한 협응 장애를 겪고 있습니다.</afflictiondescription.ataxia>
+<afflictiondescription.ataxia.self>근육이 제멋대로 움직이는 것 같습니다. 경고 없이 계속 앞으로 휘청거리고, 걸으려고 하면 제자리로 돌아옵니다.</afflictiondescription.ataxia.self>
+<!-- Aphasia -->
+<afflictionname.aphasia>실어증</afflictionname.aphasia>
+<afflictiondescription.aphasia>환자의 브로카 영역이 손상되어 완전한 문장으로 말할 수 없게 되었습니다.</afflictiondescription.aphasia>
+<afflictiondescription.aphasia.self>기본적인 문장을 완성하지 못하고 단어를 형성하는 데 극도의 어려움을 겪고 있으며, 때로는 알아들을 수 없는 중얼거림으로 대체하게 됩니다.</afflictiondescription.aphasia.self>
+<!-- Blindness -->
+<afflictionname.opticneuritis>시신경염</afflictionname.opticneuritis>
+<afflictiondescription.opticneuritis>환자의 후두엽이 심각하게 손상되어 주기적으로 환자를 실명시키고 방향 감각을 잃게 합니다.</afflictiondescription.opticneuritis>
+<afflictiondescription.opticneuritis.self>시야가 주기적으로 어둠에 잠깁니다. 이게 끝인가요?</afflictiondescription.opticneuritis.self>
+<!-- Treatments -->
+<entityname.manna>만나 추출물</entityname.manna>
+<entitydescription.manna>인간의 헤모글로빈과 외계 플라즈마를 융합하여 유로파의 수중 생물체의 자연적인 회복력과 치유 특성을 활용하는 기적의 액체입니다. 근육계와 신경계의 내부 손상을 치료하는 데 사용되며, 일시적으로 뇌출혈을 멈출 수 있습니다. 반복 사용 시 효과가 감소하고 과다복용의 위험이 있다는 점에 유의해야 합니다.</entitydescription.manna>
+<entityname.cortizide>코르티자이드</entityname.cortizide>
+<entitydescription.cortizide>강력한 진통 및 감압 약물 혼합물로, 다양한 심각한 부작용이 있습니다. 일반적으로 뇌출혈 치료의 마지막 수단으로 두개골에 주입합니다.
+경고: 건강한 뇌 환경에 투여하면 두개골 내 위험한 압력 증가를 유발할 수 있습니다.</entitydescription.cortizide>
+<entityname.smartgraft>스마트 이식</entityname.smartgraft>
+<entitydescription.smartgraft>환자의 DNA를 상속받아 복잡한 해부학적 시스템의 재생을 자극하는 유전자 조작된 결합 조직입니다. 일반적으로 천공된 장기를 복구하는 데 사용됩니다.</entitydescription.smartgraft>
+<!-- Items -->
+<entityname.anechoicdivingsuit>무반향 잠수복</entityname.anechoicdivingsuit>
+<entitydescription.anechoicdivingsuit>무반향 플레이트로 활성 소나의 음파를 흡수하도록 설계된 은밀하고 가벼운 잠수복입니다. 약간의 손상 보호 기능을 제공하며 최대 6,000미터의 압력을 견딜 수 있습니다.</entitydescription.anechoicdivingsuit>
+<entityname.navremote>항해 리모컨</entityname.navremote>
+<entitydescription.navremote>잠수함의 소나와 엔진을 원격으로 제어하는 데 사용할 수 있는 휴대용 장치입니다.</entitydescription.navremote>
+<!-- Menu -->
+<realsonarsettings>실제 소나 설정</realsonarsettings>
+<volumesettings>음량 설정</volumesettings>
+<airpingvolume>공기 중 핑 음량</airpingvolume>
+<waterpingvolume>수중 핑 음량</waterpingvolume>
+<suitpingvolume>잠수복 핑 음량</suitpingvolume>
+<tinnitusvolume>이명 음량</tinnitusvolume>
+<distortionvolume>왜곡 음량</distortionvolume>
+<networksettings>네트워크 설정 - 클라이언트 전용 (콘솔에서 "cl_reloadlua" 필요)</networksettings>
+<lowlatencymode>저지연 모드 (실험적)</lowlatencymode>
+<lowlatencymodetooltip>서버에 대한 높은 핑으로 인한 지연을 제거합니다. 서버의 구성 옵션이 다를 경우 시각적 버그나 동기화 오류가 발생할 수 있습니다.</lowlatencymodetooltip>
+<gameplaysettingsserver>게임플레이 설정 - 호스트 전용</gameplaysettingsserver>
+<gameplaysettingsclient>게임플레이 설정</gameplaysettingsclient>
+<sonarrange>소나 범위 (싱글플레이어 전용)</sonarrange>
+<sonardamage>소나 피해 (비선형)</sonardamage>
+<submarinesonar>잠수함 소나</submarinesonar>
+<submarinesonartooltip>항해 터미널의 기능을 활성화합니다.</submarinesonartooltip>
+<beaconsonar>비콘 소나</beaconsonar>
+<beaconsonartooltip>소나 모니터의 기능을 활성화합니다.</beaconsonartooltip>
+<shuttlesonar>셔틀 소나</shuttlesonar>
+<shuttlesonartooltip>셔틀 터미널의 기능을 활성화합니다.</shuttlesonartooltip>
+<customsonar>사용자 정의 소나</customsonar>
+<customsonartooltip>사용자 정의 터미널의 기능을 활성화합니다. 비활성화하면 성능이 향상될 수 있습니다.</customsonartooltip>
+<targetcreatures>생물체 타겟팅</targetcreatures>
+<targetcreaturestooltip>모든 비인간 생물체에 대한 피해를 활성화합니다.</targetcreaturestooltip>
+<targetplayers>플레이어 타겟팅</targetplayers>
+<targetplayerstooltip>플레이어에 대한 피해를 활성화합니다.</targetplayerstooltip>
+<targetbots>봇 타겟팅</targetbots>
+<targetbotstooltip>봇에 대한 피해를 활성화합니다.</targetbotstooltip>
+<creaturehulldetection>생물체 선체 감지</creaturehulldetection>
+<creaturehulldetectiontooltip>생물체에 대한 정확한 소나 타격 감지입니다. 비활성화하면 성능이 향상될 수 있습니다.</creaturehulldetectiontooltip>
+<humanhulldetection>인간 선체 감지</humanhulldetection>
+<humanhulldetectiontooltip>인간에 대한 정확한 소나 타격 감지입니다. 예를 들어, 밸러스트 탱크 안의 인간을 보호하고 싶나요?</humanhulldetectiontooltip>
+<impactvisuals>소나 충격 시각 효과 강도</impactvisuals>
+<sonarslow>소나 이동 속도 페널티</sonarslow>
+<defaultfx>기타 시각 효과 (뇌출혈, 코르티자이드 등):\n표준</defaultfx>
+<lowfx>기타 시각 효과 (뇌출혈, 코르티자이드 등):\n감소됨</lowfx>
+<nofx>기타 시각 효과 (뇌출혈, 코르티자이드 등):\n비활성화됨</nofx>
+<ignoredcharacters>무시된 캐릭터 ID</ignoredcharacters>
+<wearableprotections>잠수복 저항력</wearableprotections>
+<sonarterminals>소나 터미널</sonarterminals>
+<requirescustomsonar>("사용자 정의 소나" 옵션이 활성화되어야 함)</requirescustomsonar>
+<resetdefault>초기화</resetdefault>
+<resetalldefault>모두 초기화</resetalldefault>
+<invalidinput>잘못된 입력</invalidinput>
+<close>닫기</close>
+<!-- Dialogue -->
+<dialoggetanechoicsuit>무반향 잠수 장비가 필요해요!</dialoggetanechoicsuit>
+<dialoggetanechoicsuit>소나가 켜진 상태에서 수리하려면 무반향 잠수복이 필요해요!</dialoggetanechoicsuit>
+<dialoggetanechoicsuit>무반향 잠수복을 찾아야 해요!</dialoggetanechoicsuit>
+<dialogcantfindanechoicsuit>무반향 잠수복을 찾을 수 없어요! 소나를 꺼주세요!</dialogcantfindanechoicsuit>
+<dialogcantfindanechoicsuit>무반향 잠수복이 없어요! 저는 거기 들어가지 않을 거예요!</dialogcantfindanechoicsuit>
+<dialogcantfindanechoicsuit>소나가 꺼질 때까지 거기 들어가지 않을 거예요!</dialogcantfindanechoicsuit>
+<dialogcantfindanechoicsuit>보호 장비가 없어요! 소나를 끄세요!</dialogcantfindanechoicsuit>
+<dialogcantfindanechoicsuit>소나가 꺼질 때까지 수리할 수 없어요!</dialogcantfindanechoicsuit>
+<dialogturnoffsonar>소나를 꺼주세요!</dialogturnoffsonar>
+<dialogturnoffsonar>그 망할 소나 때문에 귀에서 피가 나요!</dialogturnoffsonar>
+<dialogturnoffsonar>소나를 끄세요!</dialogturnoffsonar>
+<dialogturnoffsonar>소나에 갇혔어요!</dialogturnoffsonar>
+<dialogturnoffsonar>맙소사, 그 소나 소리가 너무 크네요!</dialogturnoffsonar>
+<dialogturnoffsonar>물 속에 있어요, 소나를 비활성화해주세요!</dialogturnoffsonar>
+<dialogturnoffsonar>오, 제발 소나를 비활성화해주세요!</dialogturnoffsonar>
+<dialogturnoffsonar>누군가 소나를 꺼주세요!</dialogturnoffsonar>
+</infotexts>

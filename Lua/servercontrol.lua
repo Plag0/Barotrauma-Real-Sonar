@@ -12,7 +12,7 @@ Hook.Patch(
     function(instance, ptable)
     
     local characterHealed = false
-    for word in string.gmatch(ptable["command"], "[^%s]+") do
+    for word in string.gmatch(ptable["inputtedCommands"], "[^%s]+") do
         if word == "revive" or word == "heal" then
             characterHealed = true
         end
