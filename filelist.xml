@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Real Sonar" modversion="2.0.4" corepackage="False" steamworkshopid="2936760984" gameversion="1.5.9.1">
+<contentpackage name="Real Sonar" modversion="2.0.5" corepackage="False" steamworkshopid="2936760984" gameversion="1.6.17.0">
   <Item file="%ModDir%/command.xml" />
   <Item file="%ModDir%/items.xml" />
   <Item file="%ModDir%/treatments.xml" />

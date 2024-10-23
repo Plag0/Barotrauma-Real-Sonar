@@ -147,6 +147,8 @@ WARNUNG: Injitzierung in ein Gesundes Gehirn kann einen Druckaufbau im Schädel 
 <beaconsonartooltip>Schaden von Sonarmonitoren aktivieren.</beaconsonartooltip>
 <shuttlesonar>Shuttle-sonar</shuttlesonar>
 <shuttlesonartooltip>Schaden von Shuttle-Terminals aktivieren.</shuttlesonartooltip>
+<enemysonar>Feindliches-sonar</enemysonar>
+<enemysonartooltip>Sonarpings von NPC-gesteuerten U-Booten aktivieren.</enemysonartooltip>
 <customsonar>Benutzerdefiniertes Sonar</customsonar>
 <customsonartooltip>Schaden von benutzerdefiniertes-terminals aktivieren. Dies auszuschalten kann die Spielleistung verbessern.</customsonartooltip>
 <targetcreatures>Kreaturen anviesieren</targetcreatures>
@@ -164,6 +166,7 @@ WARNUNG: Injitzierung in ein Gesundes Gehirn kann einen Druckaufbau im Schädel 
 <defaultfx>Diverse Effekte (Gehirnblutung, Kortizid etc.):\nÜblich</defaultfx>
 <lowfx>Diverse Effekte (Gehirnblutung, Kortizid etc.):\nReduziert</lowfx>
 <nofx>Diverse Effekte (Gehirnblutung, Kortizid etc.):\nDeaktiviert</nofx>
+<ignoredplayers>Ignorierte Spielernamen</ignoredplayers>
 <ignoredcharacters>Ignorierte Zeichen-IDs</ignoredcharacters>
 <wearableprotections>Widerstände von Tauchanzügen</wearableprotections>
 <sonarterminals>Sonar-Terminals</sonarterminals>

@@ -6,8 +6,8 @@ local defaultConfig = dofile(RealSonar.Path .. "/Lua/defaultconfig.lua")
 local function CommaStringToTable(str)
     local tbl = {}
 
-    for word in string.gmatch(str, '([^, %s]+)') do
-        table.insert(tbl, word)
+    for word in string.gmatch(str, '([^,]+)') do
+        table.insert(tbl, word:match("^%s*(.-)%s*$")) -- Trim leading and trailing whitespace
     end
 
     return tbl
@@ -104,6 +104,12 @@ easySettings.AddMenu(TextManager.Get("realsonarsettings").Value, function (paren
             easySettings.SaveTable(configPath, RealSonar.Config)
         end, RealSonar.Config.ShuttleSonar)
         tick.ToolTip = TextManager.Get("shuttlesonartooltip")
+
+        local tick = easySettings.TickBox(list.Content, TextManager.Get("enemysonar"), function (state)
+            RealSonar.Config.EnemySonar = state
+            easySettings.SaveTable(configPath, RealSonar.Config)
+        end, RealSonar.Config.EnemySonar)
+        tick.ToolTip = TextManager.Get("enemysonartooltip")
 
         local tick = easySettings.TickBox(list.Content, TextManager.Get("customsonar"), function (state)
             RealSonar.Config.CustomSonar = state
@@ -204,6 +210,14 @@ easySettings.AddMenu(TextManager.Get("realsonarsettings").Value, function (paren
             easySettings.SaveTable(configPath, RealSonar.Config)
         end, RealSonar.Config.VFXPreset)
         textBlock.Text = string.format("%s", TextManager.Get(title).Value)
+    end
+
+    GUI.TextBlock(GUI.RectTransform(Vector2(1, 0.05), list.Content.RectTransform), TextManager.Get("ignoredplayers").Value, nil, nil, GUI.Alignment.Center, true)
+    local ignoredPlayers = MultiLineTextBox(list.Content.RectTransform, "", 0.1)
+    ignoredPlayers.Text = table.concat(RealSonar.Config.IgnoredPlayers, ", ")
+    ignoredPlayers.OnTextChangedDelegate = function (textBox)
+        RealSonar.Config.IgnoredPlayers = CommaStringToTable(textBox.Text)
+        easySettings.SaveTable(configPath, RealSonar.Config)
     end
 
     GUI.TextBlock(GUI.RectTransform(Vector2(1, 0.05), list.Content.RectTransform), TextManager.Get("ignoredcharacters").Value, nil, nil, GUI.Alignment.Center, true)

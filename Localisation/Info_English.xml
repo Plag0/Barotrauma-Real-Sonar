@@ -18,7 +18,7 @@
 <loadingscreentip>It's not recommended to administer Manna Extract if the patient already has traces of it in their system.</loadingscreentip>
 <loadingscreentip>Stay away from the ballast tanks when active sonar is enabled. The sound waves can easily propagate through the water-filled pipes.</loadingscreentip>
 <loadingscreentip>If left untreated, vibration damage from active sonar can cause nerve damage and rhabdomyolysis in affected muscles.</loadingscreentip>
-<loadingscreentip>With submarines being a way of life in Europa, medicine has advanced to treat unique sonar related injuries. Smart grafts for perforated organs, Cortizide for brain hemorrhages, and Manna Extract for tissue damage.</loadingscreentip>
+<loadingscreentip>With submarines being a way of life in Europa, medicine has advanced to treat unique sonar related injuries. Smart grafts for perforated organs, cortizide for brain hemorrhages, and manna extract for tissue damage.</loadingscreentip>
 
 <!-- Active sonar -->
 <afflictionname.activesonar>Submarine sonar</afflictionname.activesonar>
@@ -146,6 +146,8 @@ Warning: Administering into a healthy brain environment can cause a dangerous pr
 <beaconsonartooltip>Enable functionality of Sonar Monitors.</beaconsonartooltip>
 <shuttlesonar>Shuttle Sonar</shuttlesonar>
 <shuttlesonartooltip>Enable functionality of Shuttle Terminals.</shuttlesonartooltip>
+<enemysonar>Enemy Sonar</enemysonar>
+<enemysonartooltip>Enable sonar pings from NPC-controlled submarines.</enemysonartooltip>
 <customsonar>Custom Sonar</customsonar>
 <customsonartooltip>Enable functionality for custom terminals. Disabling may improve performance.</customsonartooltip>
 <targetcreatures>Target Creatures</targetcreatures>
@@ -163,6 +165,7 @@ Warning: Administering into a healthy brain environment can cause a dangerous pr
 <defaultfx>Other Visuals (Brain hemorrhage, cortizide, etc.):\nStandard</defaultfx>
 <lowfx>Other Visuals (Brain hemorrhage, cortizide, etc.):\nReduced</lowfx>
 <nofx>Other Visuals (Brain hemorrhage, cortizide, etc.):\nDisabled</nofx>
+<ignoredplayers>Ignored Player Names</ignoredplayers>
 <ignoredcharacters>Ignored Character IDs</ignoredcharacters>
 <wearableprotections>Diving Suit Resistances</wearableprotections>
 <sonarterminals>Sonar Terminals</sonarterminals>

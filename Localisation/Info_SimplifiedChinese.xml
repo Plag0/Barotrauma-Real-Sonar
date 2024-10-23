@@ -127,6 +127,8 @@
 <beaconsonartooltip>启用声纳监视器的功能。</beaconsonartooltip>
 <shuttlesonar>穿梭机声纳</shuttlesonar>
 <shuttlesonartooltip>启用穿梭机终端的功能。</shuttlesonartooltip>
+<enemysonar>敌方声呐</enemysonar>
+<enemysonartooltip>启用由NPC控制的潜艇的声呐信号。</enemysonartooltip>
 <customsonar>自定义声纳</customsonar>
 <customsonartooltip>启用自定义终端的功能。禁用可能会提高性能。</customsonartooltip>
 <targetcreatures>目标生物</targetcreatures>
@@ -144,6 +146,7 @@
 <defaultfx>其他视觉效果（脑出血、科达灵等）：\n标准</defaultfx>
 <lowfx>其他视觉效果（脑出血、科达灵等）：\n降低</lowfx>
 <nofx>其他视觉效果（脑出血、科达灵等）：\n禁用</nofx>
+<ignoredplayers>忽略的玩家名称</ignoredplayers>
 <ignoredcharacters>忽略的角色ID</ignoredcharacters>
 <wearableprotections>潜水服抗性</wearableprotections>
 <sonarterminals>声纳终端</sonarterminals>

@@ -126,6 +126,8 @@ Cuidado: Administrarla a un cerebro sano puede causar acumulaciones de presión 
 <beaconsonartooltip>Habilitar daño desde los Monitores de Sonar.</beaconsonartooltip>
 <shuttlesonar>Sonar de lanzadera</shuttlesonar>
 <shuttlesonartooltip>Habilitar daño desde las Terminales de Lanzadera.</shuttlesonartooltip>
+<enemysonar>Sonar Enemigo</enemysonar>
+<enemysonartooltip>Habilitar los pings de sonar de submarinos controlados por NPCs.</enemysonartooltip>
 <customsonar>Sonar de personalizada</customsonar>
 <customsonartooltip>Habilitar daño desde las terminales de personalizada. Desactivarlo puede mejorar el rendimiento.</customsonartooltip>
 <targetcreatures>Apuntar a criaturas</targetcreatures>
@@ -143,6 +145,7 @@ Cuidado: Administrarla a un cerebro sano puede causar acumulaciones de presión 
 <defaultfx>Otros efectos visuales (Hemorragia Cerebral, cortizida, etc.):\nEstándar</defaultfx>
 <lowfx>Otros efectos visuales (Hemorragia Cerebral, cortizida, etc.):\nReducidos</lowfx>
 <nofx>Otros efectos visuales (Hemorragia Cerebral, cortizida, etc.):\nDesactivados</nofx>
+<ignoredplayers>Nombres de Jugadores Ignorados</ignoredplayers>
 <ignoredcharacters>ID de personajes ignorados</ignoredcharacters>
 <wearableprotections>Resistencias del traje de buceo</wearableprotections>
 <sonarterminals>Terminales de sonar</sonarterminals>

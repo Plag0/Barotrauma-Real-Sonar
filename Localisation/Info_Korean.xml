@@ -127,6 +127,8 @@
 <beaconsonartooltip>소나 모니터의 기능을 활성화합니다.</beaconsonartooltip>
 <shuttlesonar>셔틀 소나</shuttlesonar>
 <shuttlesonartooltip>셔틀 터미널의 기능을 활성화합니다.</shuttlesonartooltip>
+<enemysonar>적 소나</enemysonar>
+<enemysonartooltip>NPC가 조종하는 잠수함의 소나 핑을 활성화합니다.</enemysonartooltip>
 <customsonar>사용자 정의 소나</customsonar>
 <customsonartooltip>사용자 정의 터미널의 기능을 활성화합니다. 비활성화하면 성능이 향상될 수 있습니다.</customsonartooltip>
 <targetcreatures>생물체 타겟팅</targetcreatures>
@@ -144,6 +146,7 @@
 <defaultfx>기타 시각 효과 (뇌출혈, 코르티자이드 등):\n표준</defaultfx>
 <lowfx>기타 시각 효과 (뇌출혈, 코르티자이드 등):\n감소됨</lowfx>
 <nofx>기타 시각 효과 (뇌출혈, 코르티자이드 등):\n비활성화됨</nofx>
+<ignoredplayers>무시된 플레이어 이름</ignoredplayers>
 <ignoredcharacters>무시된 캐릭터 ID</ignoredcharacters>
 <wearableprotections>잠수복 저항력</wearableprotections>
 <sonarterminals>소나 터미널</sonarterminals>

@@ -147,6 +147,8 @@ Uwaga: wstrzyknięcie dawki leku w ten sposób przy zdrowym środowisku może sp
 <beaconsonartooltip>Włącz obrażenia od ekranów sonaru.</beaconsonartooltip>
 <shuttlesonar>Sonar statków transportowych</shuttlesonar>
 <shuttlesonartooltip>Włącz obrażenia od terminali nawigacyjnych transportowca.</shuttlesonartooltip>
+<enemysonar>Sonar wroga</enemysonar>
+<enemysonartooltip>Włącz pingi sonaru z okrętów podwodnych sterowanych przez NPC.</enemysonartooltip>
 <customsonar>Niestandardowy sonar</customsonar>
 <customsonartooltip>Włącz obrażenia od terminali niestandardowe. Wyłączenie może poprawić wydajność.</customsonartooltip>
 <targetcreatures>Stworzenia</targetcreatures>
@@ -164,6 +166,7 @@ Uwaga: wstrzyknięcie dawki leku w ten sposób przy zdrowym środowisku może sp
 <defaultfx>Inne efekty wizualne (Krwotok mózgu, Kortyzyd, itp.):\nStandardowe</defaultfx>
 <lowfx>Inne efekty wizualne (Krwotok mózgu, Kortyzyd, itp.):\nZredukowane</lowfx>
 <nofx>Inne efekty wizualne (Krwotok mózgu, Kortyzyd, itp.):\nWyłączone</nofx>
+<ignoredplayers>Ignorowane Nazwy Graczy</ignoredplayers>
 <ignoredcharacters>Ignorowane identyfikatory postaci</ignoredcharacters>
 <wearableprotections>Odporność skafandra do nurkowania</wearableprotections>
 <sonarterminals>Terminale sonaru</sonarterminals>

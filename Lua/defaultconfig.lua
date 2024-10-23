@@ -16,6 +16,7 @@ config.SonarSlow = 1
 config.SubmarineSonar = true
 config.BeaconSonar = true
 config.ShuttleSonar = true
+config.EnemySonar = true
 config.CustomSonar = false
 config.CreatureDamage = true
 config.PlayerDamage = true
@@ -38,8 +39,9 @@ config.SonarTerminals["sonarmonitor"]["damage"] = "low"
 config.SonarTerminals["sonarmonitor"]["sounds"] = "default"
 config.SonarTerminals["sonarmonitor"]["range"] = 8000
 
+config.IgnoredPlayers = {}
+
 config.IgnoredCharacters = {}
-table.insert(config.IgnoredCharacters, "Put_ids_here")
 
 config.WearableProtections = {}
 config.WearableProtections["anechoicdivingsuit"] = {}

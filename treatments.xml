@@ -3,9 +3,9 @@
   <SmartGraft name="Smart Graft" identifier="smartgraft" aliases="" category="Medical" Tags="smallitem,medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" description="" useinhealthinterface="true" scale="0.4" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" secondary="medcontainer" minamount="1" maxamount="2" spawnprobability="1"/>
-    <PreferredContainer secondary="wreckmedcab,abandonedmedcab,beaconmedcab" minamount="1" maxamount="2" spawnprobability="0.3" />
-    <PreferredContainer secondary="outpostmedcab" minamount="1" maxamount="3" spawnprobability="0.25" />
-    <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.1" />
+    <PreferredContainer secondary="wreckmedcab,abandonedmedcab,beaconmedcab" minamount="1" maxamount="2" spawnprobability="0.1" />
+    <PreferredContainer secondary="outpostmedcab" minamount="1" maxamount="3" spawnprobability="0.05" />
+    <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.05" />
     <Price baseprice="270" minavailable="5">
       <Price storeidentifier="merchantmedical" multiplier="0.9"/>
       <Price storeidentifier="merchantcity"/>
@@ -57,11 +57,11 @@
   <Cortizide name="Cortizide" identifier="cortizide" aliases="" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="toxcab" secondary="toxcontainer" amount="1" spawnprobability="1"/>
-    <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" minamount="1" maxamount="2" spawnprobability="0.1" />
-    <PreferredContainer secondary="wreckmedcab,abandonedmedcab,beaconmedcab" amount="1" spawnprobability="0.05" />
-    <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.01" />
-    <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.01" />
-    <PreferredContainer secondary="outposttrashcan" amount="1" spawnprobability="0.01" />
+    <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" minamount="1" maxamount="2" spawnprobability="0.05" />
+    <PreferredContainer secondary="wreckmedcab,abandonedmedcab,beaconmedcab" amount="1" spawnprobability="0.02" />
+    <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.005" />
+    <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.005" />
+    <PreferredContainer secondary="outposttrashcan" amount="1" spawnprobability="0.001" />
     <Price baseprice="600" minavailable="3">
       <Price storeidentifier="merchantcity"/>
       <Price storeidentifier="merchantresearch"/>
@@ -231,10 +231,10 @@
 
   <MannaExtract name="Manna Extract" identifier="manna" category="Medical" maxstacksize="32" maxstacksizecharacterinventory="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
-    <PreferredContainer primary="medcab" secondary="medcontainer" minamount="1" maxamount="4" spawnprobability="0.7"/>
-    <PreferredContainer secondary="outpostmedcab" minamount="1" maxamount="2" spawnprobability="0.18"/>
+    <PreferredContainer primary="medcab" secondary="medcontainer" minamount="1" maxamount="4" spawnprobability="1"/>
+    <PreferredContainer secondary="outpostmedcab" minamount="1" maxamount="2" spawnprobability="0.12"/>
     <PreferredContainer secondary="outpostmedcompartment" amount="1" spawnprobability="0.05"/>
-    <PreferredContainer secondary="wreckmedcab,abandonedmedcab,beaconmedcab" minamount="1" maxamount="2" spawnprobability="0.2" />
+    <PreferredContainer secondary="wreckmedcab,abandonedmedcab,beaconmedcab" minamount="1" maxamount="3" spawnprobability="0.16" />
     <Price baseprice="350">
       <Price storeidentifier="merchantmedical" multiplier="0.9"/>
     </Price>

@@ -1,4 +1,4 @@
-local enemySonarCooldown = 20 * 60
+local enemySonarCooldown = 5 * 60
 local updateAfflictionCooldown = 2 * 60
 
 Hook.Add("think", "think", function()
@@ -6,13 +6,17 @@ Hook.Add("think", "think", function()
 
     if RealSonar.EnemySub then
         if enemySonarCooldown <= 0 then
-            enemySonarCooldown = RealSonar.updateEnemySonarMode() * 60
+            if RealSonar.Config.EnemySonar and not RealSonar.EnemySub.captain.IsOnPlayerTeam then
+                enemySonarCooldown = RealSonar.updateEnemySonarMode() * 60
+            else
+                enemySonarCooldown = 5 * 60 -- Check again in 5 seconds.
+            end
         end
         enemySonarCooldown = enemySonarCooldown - 1
     end
 
     if updateAfflictionCooldown <= 0 then
-        updateAfflictionCooldown = RealSonar.updateBrainHemorrhage() * 60
+        updateAfflictionCooldown = RealSonar.updateAfflictions() * 60
     end
     updateAfflictionCooldown = updateAfflictionCooldown - 1
 end)

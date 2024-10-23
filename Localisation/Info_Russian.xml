@@ -148,6 +148,8 @@
 <beaconsonartooltip>Урон от активного сонара радиомаяков (через монитор сонара).</beaconsonartooltip>
 <shuttlesonar>Сонар челноков</shuttlesonar>
 <shuttlesonartooltip>Урон от активного сонара навигационных терминалов шаттла.</shuttlesonartooltip>
+<enemysonar>Сонар вражеский</enemysonar>
+<enemysonartooltip>Включить сигналы сонара от подводных лодок под управлением NPC.</enemysonartooltip>
 <customsonar>Сонар пользовательский</customsonar>
 <customsonartooltip>Урон от активного сонара пользовательский навигационных терминалов. Выключение может улучшить производительность.</customsonartooltip>
 <targetcreatures>Урон существам</targetcreatures>
@@ -165,6 +167,7 @@
 <defaultfx>Другие эффекты (кровоизлияний в мозг, кортизида, и т.д.):\nСтандартные</defaultfx>
 <lowfx>Другие эффекты (кровоизлияний в мозг, кортизида, и т.д.):\nСнижены</lowfx>
 <nofx>Другие эффекты (кровоизлияний в мозг, кортизида, и т.д.):\nВыключены</nofx>
+<ignoredplayers>Игнорируемые имена игроков</ignoredplayers>
 <ignoredcharacters>Игнорируемые идентификаторы персонажей</ignoredcharacters>
 <wearableprotections>Скафандр сопротивления</wearableprotections>
 <sonarterminals>Пользовательский терминалов</sonarterminals>

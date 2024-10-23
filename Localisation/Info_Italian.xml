@@ -147,6 +147,8 @@ ATTENZIONE: la somministrazione in un ambiente cerebrale sano può causare un pe
 <beaconsonartooltip>Abilita danno dai Monitor del Sonar.</beaconsonartooltip>
 <shuttlesonar>Sonar della Navetta</shuttlesonar>
 <shuttlesonartooltip>Abilita danno dal terminale di navigazione della navetta.</shuttlesonartooltip>
+<enemysonar>Sonar Nemico</enemysonar>
+<enemysonartooltip>Abilita i ping sonar dai sottomarini controllati da NPC.</enemysonartooltip>
 <customsonar>Sonar personalizzato</customsonar>
 <customsonartooltip>Abilita i danni dai terminali personalizzati. La disabilitazione può migliorare le prestazioni.</customsonartooltip>
 <targetcreatures>Segnala le Creature</targetcreatures>
@@ -164,6 +166,7 @@ ATTENZIONE: la somministrazione in un ambiente cerebrale sano può causare un pe
 <defaultfx>Altre Immagini (Emorragia celebrale, cortizide, etc.):\nNormale</defaultfx>
 <lowfx>Altre Immagini  (Emorragia celebrale, cortizide, etc.):\Ridotta</lowfx>
 <nofx>Altre Immagini  (Emorragia celebrale, cortizide, etc.):\nDisabilitata</nofx>
+<ignoredplayers>Nomi Giocatori Ignorati</ignoredplayers>
 <ignoredcharacters>ID dei personaggi ignorati</ignoredcharacters>
 <wearableprotections>Resistenze della muta da sub</wearableprotections>
 <sonarterminals>Terminali sonar</sonarterminals>

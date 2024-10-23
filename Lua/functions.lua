@@ -19,6 +19,15 @@ function RealSonar.pathToBreach(character)
         return false
     end
 
+    -- Returns false for ignored players.
+    if character.isPlayer then
+        for name in RealSonar.Config.IgnoredPlayers do
+            if name == character.name then
+                return false
+            end
+        end
+    end
+
     -- Returns false for ignored characters.
     for identifier in RealSonar.Config.IgnoredCharacters do
         if identifier == character.Prefab.Identifier.Value then
@@ -184,9 +193,11 @@ function RealSonar.getSonarResistanceData(character)
             if clothing.HasTag("anechoic") then
                 muffleSonar = true
             end
-            for modifier in wearable.DamageModifiers do
-                if modifier.AfflictionTypes == "activesonar" then
-                    damageModifier = damageModifier - (1 - modifier.DamageMultiplier)
+            if wearable ~= nil then -- Prevents errors if the player equips a flashlight on their head etc.
+                for modifier in wearable.DamageModifiers do
+                    if modifier.AfflictionTypes == "activesonar" then
+                        damageModifier = damageModifier - (1 - modifier.DamageMultiplier)
+                    end
                 end
             end
         end
@@ -359,34 +370,34 @@ function RealSonar.setItemTags()
     end
 end
 
--- This function will re-apply the "serversidelua" affliction if the player has manually removed it with console commands.
-function RealSonar.updateServerControl()
-    local affliction
-    for _, character in pairs(Character.CharacterList) do
-        affliction = character.CharacterHealth.GetAffliction("serversidelua", false)
-        if not affliction then
-            RealSonar.SetAffliction(character, "serversidelua", 1)
-        end
-    end
-end
-
-function RealSonar.updateBrainHemorrhage()
+-- This function corrects the brain hemorrhage and serversidelua afflictions.
+function RealSonar.updateAfflictions()
     local brainHemorrhages
+    local hasServerSideLua
     local fx_preset = RealSonar.getVFXPresetString()
     for _, character in pairs(Character.CharacterList) do
-        if character.isHuman and not character.isDead then
-            brainHemorrhages = {}
-            for affliction in character.CharacterHealth.GetAllAfflictions() do
-                if affliction.Prefab.Identifier.Value == "brainhemorrhage" or affliction.Prefab.Identifier.Value == "brainhemorrhagelowfx" or affliction.Prefab.Identifier == "brainhemorrhagenofx" then
-                    table.insert(brainHemorrhages, affliction)
-                end
+        brainHemorrhages = {}
+        hasServerSideLua = false
+
+        for affliction in character.CharacterHealth.GetAllAfflictions() do
+            if (character.isHuman and not character.isDead) and (affliction.Prefab.Identifier.Value == "brainhemorrhage" or affliction.Prefab.Identifier.Value == "brainhemorrhagelowfx" or affliction.Prefab.Identifier == "brainhemorrhagenofx") then
+                table.insert(brainHemorrhages, affliction)
             end
-            for _, brainHemorrhage in pairs(brainHemorrhages) do
-                if brainHemorrhage.Prefab.Identifier.Value ~= string.format("brainhemorrhage%s", fx_preset) then
-                    RealSonar.GiveAfflictionHead(character, string.format("brainhemorrhage%s", fx_preset), brainHemorrhage.Strength)
-                    brainHemorrhage.Strength = 0
-                end
+
+            if affliction.Prefab.Identifier.Value == "serversidelua" then
+                hasServerSideLua = true
             end
+        end
+
+        for _, brainHemorrhage in pairs(brainHemorrhages) do
+            if brainHemorrhage.Prefab.Identifier.Value ~= string.format("brainhemorrhage%s", fx_preset) then
+                RealSonar.GiveAfflictionHead(character, string.format("brainhemorrhage%s", fx_preset), brainHemorrhage.Strength)
+                brainHemorrhage.Strength = 0
+            end
+        end
+
+        if not hasServerSideLua then
+            RealSonar.SetAffliction(character, "serversidelua", 1)
         end
     end
     return 2

@@ -2,10 +2,6 @@
 -- This affliction allows the server to control Real Sonar using Lua without causing desync for users without it.
 -- Basically, client-side Lua is no longer needed to experience Real Sonar's advanced features, anyone can jump in.
 
-Hook.Add("character.created", "enableServerSideLua", function(createdCharacter)
-    RealSonar.GiveAffliction(createdCharacter, "serversidelua", 1)
-end)
-
 Hook.Patch(
     "Barotrauma.DebugConsole",
     "ExecuteCommand",
@@ -18,7 +14,7 @@ Hook.Patch(
         end
     end
     if characterHealed then
-        RealSonar.updateServerControl()
+        RealSonar.updateAfflictions()
     end
 end, Hook.HookMethodType.After)
 
@@ -35,6 +31,6 @@ Hook.Patch(
         end
     end
     if characterHealed then
-        RealSonar.updateServerControl()
+        RealSonar.updateAfflictions()
     end
 end, Hook.HookMethodType.After)

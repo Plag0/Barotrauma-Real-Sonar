@@ -146,6 +146,8 @@ Attention: Injecter ce produit dans un corps saint peut causer une augmentation 
 <beaconsonar>Sonar de Balises</beaconsonar>
 <beaconsonartooltip>Active les dégâts du Sonar Portatif.</beaconsonartooltip>
 <shuttlesonar>Sonar de Navette</shuttlesonar>
+<enemysonar>Sonar Ennemi</enemysonar>
+<enemysonartooltip>Activer les signaux sonar des sous-marins contrôlés par des PNJ.</enemysonartooltip>
 <shuttlesonartooltip>Activer les dégâts du Terminal de la Navette.</shuttlesonartooltip>
 <customsonar>Sonar personnalisé</customsonar>
 <customsonartooltip>Activer les dégâts du terminal personnalisés. Le désactiver peut améliorer les performances du jeu.</customsonartooltip>
@@ -164,6 +166,7 @@ Attention: Injecter ce produit dans un corps saint peut causer une augmentation 
 <defaultfx>Autre Affichage (Brain hemorrhage, Corticoïdes, etc.):\nStandard</defaultfx>
 <lowfx>Autre Affichage (Lésion nerveuse, Corticoïdes, etc.):\nRéduits</lowfx>
 <nofx>Autre Affichage (Lésion nerveuse, Corticoïdes, etc.):\nDésactivés</nofx>
+<ignoredplayers>Noms de Joueurs Ignorés</ignoredplayers>
 <ignoredcharacters>ID de personnage ignorés</ignoredcharacters>
 <wearableprotections>Résistances des combinaisons de plongée</wearableprotections>
 <sonarterminals>Terminals Sonar</sonarterminals>

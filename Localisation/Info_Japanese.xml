@@ -133,6 +133,8 @@
 <beaconsonartooltip>ビーコンソナーモニターが使える許可</beaconsonartooltip>
 <shuttlesonar>シャトル航法装置の有効あり</shuttlesonar>
 <shuttlesonartooltip>シャトル航法装置が使える許可</shuttlesonartooltip>
+<enemysonar>敵のソナー</enemysonar>
+<enemysonartooltip>NPCが操作する潜水艦からのソナーピングを有効にします。</enemysonartooltip>
 <customsonar>カスタム ソナー</customsonar>
 <customsonartooltip>カスタム装置が使える許可。無効にするとパフォーマンスが向上する可能性があります。</customsonartooltip>
 <targetcreatures>怪物ダメージあり</targetcreatures>
@@ -150,6 +152,7 @@
 <defaultfx>他の視覚効果（脳内出血、コルチジド、など）：\nデフォルト</defaultfx>
 <lowfx>他の視覚効果（脳内出血、コルチジド、など）：\n少し</lowfx>
 <nofx>他の視覚効果（脳内出血、コルチジド、など）：\nなし</nofx>
+<ignoredplayers>無視するプレイヤー名</ignoredplayers>
 <ignoredcharacters>無視されるキャラクターID</ignoredcharacters>
 <wearableprotections>ダイビングスーツの抵抗</wearableprotections>
 <sonarterminals>ソナー装置</sonarterminals>

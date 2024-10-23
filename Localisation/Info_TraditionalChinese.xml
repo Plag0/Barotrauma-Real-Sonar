@@ -127,6 +127,8 @@
 <beaconsonartooltip>啟用聲納監視器的功能。</beaconsonartooltip>
 <shuttlesonar>穿梭機聲納</shuttlesonar>
 <shuttlesonartooltip>啟用穿梭機終端的功能。</shuttlesonartooltip>
+<enemysonar>敵方聲納</enemysonar>
+<enemysonartooltip>啟用由NPC控制的潛艇的聲納信號。</enemysonartooltip>
 <customsonar>自定義聲納</customsonar>
 <customsonartooltip>啟用自定義終端的功能。禁用可能會提高性能。</customsonartooltip>
 <targetcreatures>目標生物</targetcreatures>
@@ -144,6 +146,7 @@
 <defaultfx>其他視覺效果（腦出血、科達靈等）：\n標準</defaultfx>
 <lowfx>其他視覺效果（腦出血、科達靈等）：\n降低</lowfx>
 <nofx>其他視覺效果（腦出血、科達靈等）：\n禁用</nofx>
+<ignoredplayers>忽略的玩家名稱</ignoredplayers>
 <ignoredcharacters>忽略的角色ID</ignoredcharacters>
 <wearableprotections>潛水服抗性</wearableprotections>
 <sonarterminals>聲納終端</sonarterminals>

@@ -127,6 +127,8 @@
     <beaconsonartooltip>Ativa a funcionalidade dos Monitores de Sonar.</beaconsonartooltip>
     <shuttlesonar>Sonar da Nave</shuttlesonar>
     <shuttlesonartooltip>Ativa a funcionalidade dos Terminais da Nave.</shuttlesonartooltip>
+    <enemysonar>Sonar Inimigo</enemysonar>
+    <enemysonartooltip>Ativar pings de sonar de submarinos controlados por NPCs.</enemysonartooltip>
     <customsonar>Sonar Personalizado</customsonar>
     <customsonartooltip>Ativa a funcionalidade para terminais personalizados. Desativar pode melhorar o desempenho.</customsonartooltip>
     <targetcreatures>Mirar Criaturas</targetcreatures>
@@ -144,6 +146,7 @@
     <defaultfx>Outros Visuais (Hemorragia cerebral, cortizida, etc.):\nPadrão</defaultfx>
     <lowfx>Outros Visuais (Hemorragia cerebral, cortizida, etc.):\nReduzido</lowfx>
     <nofx>Outros Visuais (Hemorragia cerebral, cortizida, etc.):\nDesativado</nofx>
+    <ignoredplayers>Nomes de Jogadores Ignorados</ignoredplayers>
     <ignoredcharacters>IDs de Personagens Ignorados</ignoredcharacters>
     <wearableprotections>Resistências do Traje de Mergulho</wearableprotections>
     <sonarterminals>Terminais de Sonar</sonarterminals>

@@ -127,6 +127,8 @@ Uyarı: Sağlıklı bir beyin ortamına uygulanması kafatasında tehlikeli bir 
 <beaconsonartooltip>Sonar Monitörlerinin işlevselliğini etkinleştirir.</beaconsonartooltip>
 <shuttlesonar>Mekik Sonarı</shuttlesonar>
 <shuttlesonartooltip>Mekik Terminallerinin işlevselliğini etkinleştirir.</shuttlesonartooltip>
+<enemysonar>Düşman Sonarı</enemysonar>
+<enemysonartooltip>NPC kontrollü denizaltılardan gelen sonar pinglerini etkinleştir.</enemysonartooltip>
 <customsonar>Özel Sonar</customsonar>
 <customsonartooltip>Özel terminaller için işlevselliği etkinleştirir. Devre dışı bırakmak performansı artırabilir.</customsonartooltip>
 <targetcreatures>Canlıları Hedefle</targetcreatures>
@@ -144,6 +146,7 @@ Uyarı: Sağlıklı bir beyin ortamına uygulanması kafatasında tehlikeli bir 
 <defaultfx>Diğer Görseller (Beyin kanaması, cortizide, vb.):\nStandart</defaultfx>
 <lowfx>Diğer Görseller (Beyin kanaması, cortizide, vb.):\nAzaltılmış</lowfx>
 <nofx>Diğer Görseller (Beyin kanaması, cortizide, vb.):\nDevre Dışı</nofx>
+<ignoredplayers>Yoksayılan Oyuncu İsimleri</ignoredplayers>
 <ignoredcharacters>Yok Sayılan Karakter ID'leri</ignoredcharacters>
 <wearableprotections>Dalış Kıyafeti Dirençleri</wearableprotections>
 <sonarterminals>Sonar Terminalleri</sonarterminals>
