@@ -126,7 +126,7 @@ Warning: Administering into a healthy brain environment can cause a dangerous pr
 <entitydescription.navremote>A handheld device that can be used to remotely control the submarine's sonar and engines.</entitydescription.navremote>
 
 <!-- Menu -->
-<realsonarsettings>Real Sonar Settings</realsonarsettings>
+<realsonarsettings>Real Sonar</realsonarsettings>
 <volumesettings>Volume Settings</volumesettings>
 <airpingvolume>Air Ping Volume</airpingvolume>
 <waterpingvolume>Water Ping Volume</waterpingvolume>

@@ -8,6 +8,7 @@ Hook.Patch(
         "System.Single",
         "System.Single",
         "Barotrauma.Hull",
+        "System.Boolean",
         "System.Boolean"
     },
     function(instance, ptable)

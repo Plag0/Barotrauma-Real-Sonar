@@ -128,7 +128,7 @@
 <entitydescription.navremote>Портативное устройство, позволяющее дистанционно контролировать сонар и двигатели подлодки.</entitydescription.navremote>
 
 <!-- Menu -->
-<realsonarsettings>Настройки Real Sonar</realsonarsettings>
+<realsonarsettings>Real Sonar</realsonarsettings>
 <volumesettings>Настройки громкости</volumesettings>
 <airpingvolume>Громкость импульса в воздухе</airpingvolume>
 <waterpingvolume>Громкость импульса под водой</waterpingvolume>
